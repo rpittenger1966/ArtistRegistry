@@ -46,16 +46,18 @@ GO
 
 CREATE TABLE [dbo].[Contact](
 	[ContactId] int identity(1,1) NOT NULL,
-	[FirstName] [varchar](50) NOT NULL,
-	[LastName] [varchar](50) NOT NULL,
-	[Gender] [varchar](50) NULL,
-	[Address1] [varchar](50) NULL,
-	[Address2] [varchar](50) NULL,
-	[City] [varchar](50) NULL,
-	[State] [varchar](50) NULL,
+	[FullName] [varchar](80) NOT NULL,
+	[LastName] [varchar](40) NOT NULL,
+	[Gender] [varchar](2) NULL,
+	[BirthYear] int NULL,
+	[Generation] varchar(10) NULL,
+	[Address1] [varchar](30) NULL,
+	[Address2] [varchar](30) NULL,
+	[City] [varchar](40) NULL,
+	[State] [varchar](5) NULL,
 	[PostalCode] [varchar](10) NULL,
 	[Country] [varchar](50) NOT NULL,
-	[Phone] [varchar](50) NULL,
+	[Phone] [varchar](15) NULL,
 
 	[Email] [varchar](100) NULL,
 	[WebSite] [varchar](100) NULL,
@@ -63,6 +65,7 @@ CREATE TABLE [dbo].[Contact](
 	[Instagram] [varchar](100) NULL,
 	[DeviantArt] [varchar](100) NULL,
 	[YouTube] [varchar](100) NULL,
+	[OhioArtistREgistry] [varchar](200) NULL,
 
 	[InitialSource] varchar(50) NULL,
 	[StatusId] int NOT NULL,
@@ -88,7 +91,6 @@ CREATE TABLE [dbo].[Juror] (
 
 ALTER TABLE [dbo].[Juror]  WITH CHECK ADD  CONSTRAINT [FK_Juror_ContactId] FOREIGN KEY([ContactId])
 	REFERENCES [dbo].[Contact] ([ContactId])
-
 
 
 CREATE TABLE [dbo].[Gallery] (
@@ -296,5 +298,63 @@ INSERT INTO [dbo].[Gallery]
            ,'WV'
            ,'US'
            ,GETDATE());
+
+
+
+INSERT INTO [dbo].[Contact]
+           ([FullName]
+           ,[LastName]
+           ,[Gender]
+           ,[BirthYear]
+           ,[Generation]
+           ,[Address1]
+           ,[Address2]
+           ,[City]
+           ,[State]
+           ,[PostalCode]
+           ,[Country]
+           ,[Phone]
+           ,[Email]
+           ,[WebSite]
+           ,[Facebook]
+           ,[Instagram]
+           ,[DeviantArt]
+           ,[YouTube]
+           ,[OhioArtistREgistry]
+           ,[InitialSource]
+           ,[StatusId]
+           ,[CreateDate]
+           ,[ModifyDate])
+     VALUES
+           ('Bob Pittenger'
+           ,'Pittenger'
+           ,'M'
+           ,1966
+           ,'GenX'
+           ,'7376 Middleton Way'
+           ,''
+           ,'Mason'
+           ,'OH'
+           ,'45040'
+           ,'US'
+           ,'513-755-7624'
+           ,'pittenger@pointstar.com'
+           ,'https://artbybob.art'
+           ,null
+           ,null
+           ,'https://www.deviantart.com/boboilpainting'
+           ,NULL
+           ,'https://oovar.ohioartscouncil.org/name/bob-pittenger/'
+           ,''
+           ,1
+           ,getdate()
+           ,null);
+
+
+
+INSERT INTO [dbo].[Artist]
+           ([ContactId])
+     VALUES
+           (1);
 
 
