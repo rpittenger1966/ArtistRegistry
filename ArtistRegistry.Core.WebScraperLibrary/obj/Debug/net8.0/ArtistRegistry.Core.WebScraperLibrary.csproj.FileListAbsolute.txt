@@ -1,0 +1,13 @@
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\bin\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.deps.json
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\bin\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.dll
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\bin\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.pdb
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.GeneratedMSBuildEditorConfig.editorconfig
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.AssemblyInfoInputs.cache
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.AssemblyInfo.cs
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.csproj.CoreCompileInputs.cache
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.sourcelink.json
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.dll
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\refint\ArtistRegistry.Core.WebScraperLibrary.dll
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.pdb
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ref\ArtistRegistry.Core.WebScraperLibrary.dll
+M:\Visual Studio Solutions\ArtistRegistry\ArtistRegistry.Core.WebScraperLibrary\obj\Debug\net8.0\ArtistRegistry.Core.WebScraperLibrary.csproj.AssemblyReference.cache

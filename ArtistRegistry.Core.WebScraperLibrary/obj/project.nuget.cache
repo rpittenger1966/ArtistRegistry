@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h2NZSK9P+Uk=",
+  "success": true,
+  "projectFilePath": "M:\\Visual Studio Solutions\\ArtistRegistry\\ArtistRegistry.Core.WebScraperLibrary\\ArtistRegistry.Core.WebScraperLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bob\\.nuget\\packages\\selenium.phantomjs.webdriver\\2.1.1\\selenium.phantomjs.webdriver.2.1.1.nupkg.sha512",
+    "C:\\Users\\Bob\\.nuget\\packages\\selenium.webdriver\\4.45.0\\selenium.webdriver.4.45.0.nupkg.sha512"
+  ],
+  "logs": []
+}
