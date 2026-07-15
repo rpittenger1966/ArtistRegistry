@@ -1,7 +1,7 @@
 ﻿using ArtistRegistry.Core.WebScraperLibrary;
 using ArtistRegistry.Standard.Common;
 using ArtistRegistry.Standard.Data;
-using FirstLetterRegistry.Standard.Data.Providers;
+using ArtistRegistry.Standard.Data.Providers;
 
 namespace ArtistRegistry.WebScaper.Tests
 {
