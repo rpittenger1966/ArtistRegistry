@@ -5,3 +5,15 @@
 /.github
 /.vs/ArtistRegistry/FileContentIndex
 /.vs
+/ArtistRegistry.Core.WebScraperLibrary/bin/Debug/net8.0
+/ArtistRegistry.Core.WebScraperLibrary/obj/Debug/net8.0
+/ArtistRegistry.Core.WebScraperLibrary/obj
+/ArtistRegistry.Standard.Common/bin/Debug/netstandard2.0
+/ArtistRegistry.Standard.Common/obj/Debug/netstandard2.0
+/ArtistRegistry.Standard.Common/obj
+/ArtistRegistry.Standard.Data/bin/Debug/netstandard2.0
+/ArtistRegistry.Standard.Data/obj/Debug/netstandard2.0
+/ArtistRegistry.WebScaper.Tests/bin/Debug/net8.0
+/ArtistRegistry.WebScaper.Tests/obj/Debug/net8.0
+/ArtistRegistry.Standard.Data/obj
+/ArtistRegistry.WebScaper.Tests/obj
