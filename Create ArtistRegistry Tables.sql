@@ -46,7 +46,7 @@ GO
 
 CREATE TABLE [dbo].[Contact](
 	[ContactId] int identity(1,1) NOT NULL,
-	[FullName] [varchar](80) NOT NULL,
+	[FirstName] [varchar](80) NOT NULL,
 	[LastName] [varchar](40) NOT NULL,
 	[Gender] [varchar](2) NULL,
 	[BirthYear] int NULL,
@@ -65,7 +65,7 @@ CREATE TABLE [dbo].[Contact](
 	[Instagram] [varchar](100) NULL,
 	[DeviantArt] [varchar](100) NULL,
 	[YouTube] [varchar](100) NULL,
-	[OhioArtistREgistry] [varchar](200) NULL,
+	[OhioArtistRegistry] [varchar](200) NULL,
 
 	[InitialSource] varchar(50) NULL,
 	[StatusId] int NOT NULL,
@@ -302,7 +302,7 @@ INSERT INTO [dbo].[Gallery]
 
 
 INSERT INTO [dbo].[Contact]
-           ([FullName]
+           ([FirstName]
            ,[LastName]
            ,[Gender]
            ,[BirthYear]

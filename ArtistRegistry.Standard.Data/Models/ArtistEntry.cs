@@ -10,6 +10,7 @@ namespace ArtistRegistry.Standard.Data
 
 	public partial class ArtistEntry
 	{
+		public int? ArtistId { get; set; }
 		public string ContentFileName { get; set; }
 		public string FirstLetterId { get; set; }
 		public DateTime? LastUpdated { get; set; }
@@ -19,6 +20,7 @@ namespace ArtistRegistry.Standard.Data
 
 		public ArtistEntry()
 		{
+			ArtistId = null;
 			ContentFileName = "";
 			FirstLetterId = "";
 			LastUpdated = null;

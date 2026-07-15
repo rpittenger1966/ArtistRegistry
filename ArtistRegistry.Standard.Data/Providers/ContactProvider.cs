@@ -35,61 +35,94 @@ namespace ArtistRegistry.Standard.Data.Providers
 
 		public async Task<int> InsertContactAsync(SqlConnection con, Contact entity)
 		{
-			string sql = @"USE [ArtistRegistry]
-GO
-
-INSERT INTO [dbo].[Contact]
-           ([FullName]
+			string sql = @"INSERT INTO [dbo].[Contact]
+           ([FirstName]
            ,[LastName]
            ,[Gender]
            ,[BirthYear]
            ,[Generation]
-           ,[Address1]
+           
+		   ,[Address1]
            ,[Address2]
            ,[City]
            ,[State]
            ,[PostalCode]
-           ,[Country]
+           
+		   ,[Country]
            ,[Phone]
            ,[Email]
            ,[WebSite]
            ,[Facebook]
-           ,[Instagram]
+           
+		   ,[Instagram]
            ,[DeviantArt]
            ,[YouTube]
-           ,[OhioArtistREgistry]
+           ,[OhioArtistRegistry]
            ,[InitialSource]
-           ,[StatusId]
+           
+		   ,[StatusId]
            ,[CreateDate])
      VALUES
-           (@FullName
+           (@FirstName
            ,@LastName
            ,@Gender
            ,@BirthYear
            ,@Generation
-           ,@Address1
+           
+		   ,@Address1
            ,@Address2
            ,@City
            ,@State
            ,@PostalCode
-           ,@Country
+           
+		   ,@Country
            ,@Phone
            ,@Email
            ,@WebSite
            ,@Facebook
-           ,@Instagram
+           
+		   ,@Instagram
            ,@DeviantArt
            ,@YouTube
-           ,@OhioArtistREgistry
+           ,@OhioArtistRegistry
            ,@InitialSource
-           ,@StatusId
-           ,getdate());";
+           
+		   ,@StatusId
+           ,getdate());
+";
 
 			sql = sql + "SELECT SCOPE_IDENTITY();";
 
 			using (SqlCommand command = new SqlCommand(sql, con))
 			{
-				command.Parameters.AddWithValue("FullName", entity.FullName);
+				command.Parameters.AddWithValue("FirstName", entity.FirstName);
+				command.Parameters.AddWithValue("LastName", entity.LastName);
+				command.Parameters.AddWithValue("Gender", entity.Gender);
+				if (entity.BirthYear.HasValue)
+					command.Parameters.AddWithValue("BirthYear", entity.BirthYear);
+				else
+					command.Parameters.AddWithValue("BirthYear", DBNull.Value);
+				command.Parameters.AddWithValue("Generation", entity.Generation);
+
+				command.Parameters.AddWithValue("Address1", entity.Address1);
+				command.Parameters.AddWithValue("Address2", entity.Address2);
+				command.Parameters.AddWithValue("City", entity.City);
+				command.Parameters.AddWithValue("State", entity.State);
+				command.Parameters.AddWithValue("PostalCode", entity.PostalCode);
+
+				command.Parameters.AddWithValue("Country", entity.Country);
+				command.Parameters.AddWithValue("Phone", entity.Phone);
+				command.Parameters.AddWithValue("Email", entity.Email);
+				command.Parameters.AddWithValue("WebSite", entity.WebSite);
+				command.Parameters.AddWithValue("Facebook", entity.Facebook);
+
+				command.Parameters.AddWithValue("Instagram", entity.Instagram);
+				command.Parameters.AddWithValue("DeviantArt", entity.DeviantArt);
+				command.Parameters.AddWithValue("YouTube", entity.YouTube);
+				command.Parameters.AddWithValue("OhioArtistRegistry", entity.OhioArtistRegistry);
+				command.Parameters.AddWithValue("InitialSource", entity.InitialSource);
+
+				command.Parameters.AddWithValue("StatusId", entity.StatusId);
 
 				object o = await command.ExecuteScalarAsync();
 
@@ -193,10 +226,6 @@ INSERT INTO [dbo].[Contact]
 			catch
 			{
 				throw;
-			}
-			finally
-			{
-				con?.Close();
 			}
 		}
 

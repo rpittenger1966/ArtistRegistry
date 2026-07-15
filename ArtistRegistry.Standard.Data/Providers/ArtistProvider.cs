@@ -12,7 +12,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 		}
 
-		public async Task<int> InsertArtistAsync(Artist entity)
+		public async Task InsertArtistAsync(Artist entity)
 		{
 			SqlConnection con = null;
 
@@ -20,7 +20,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					return await InsertArtistAsync(con, entity);
+					await InsertArtistAsync(con, entity);
 				}
 			}
 			catch
@@ -33,23 +33,19 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<int> InsertArtistAsync(SqlConnection con, Artist entity)
+		public async Task InsertArtistAsync(SqlConnection con, Artist entity)
 		{
 			string sql = @"INSERT INTO [dbo].[Artist]
            ([ContactId])
      VALUES
-           (@ContactId, int,>);";
+           (@ContactId);";
 
-			sql = sql + "SELECT SCOPE_IDENTITY();";
 
 			using (SqlCommand command = new SqlCommand(sql, con))
 			{
 				command.Parameters.AddWithValue("ContactId", entity.ContactId);
 
-				object o = await command.ExecuteScalarAsync();
-
-				int retval = Convert.ToInt32(o);
-				return retval;
+				await command.ExecuteScalarAsync();
 			}
 		}
 
@@ -126,7 +122,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 			if (id == null) return null;
 
-			string sql = $"SELECT * FROM [dbo].[Artist] where ArtistId = {id}";
+			string sql = $"SELECT * FROM [dbo].[Artist] where ContactId = {id}";
 
 
 			try
@@ -148,10 +144,6 @@ namespace ArtistRegistry.Standard.Data.Providers
 			catch
 			{
 				throw;
-			}
-			finally
-			{
-				con?.Close();
 			}
 		}
 

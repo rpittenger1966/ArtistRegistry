@@ -16,6 +16,7 @@ namespace ArtistRegistry.Standard.Data
 		{
 			ArtistRegistry.Standard.Data.ArtistEntry o = new ArtistRegistry.Standard.Data.ArtistEntry();
 
+			o.ArtistId = ArtistRegistry.Standard.Data.AdoHelper.ReadNullableInt(reader, "ArtistId");
 			o.ContentFileName = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "ContentFileName");
 			o.FirstLetterId = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "FirstLetterId");
 			o.LastUpdated = ArtistRegistry.Standard.Data.AdoHelper.ReadNullableDateTime(reader, "LastUpdated");

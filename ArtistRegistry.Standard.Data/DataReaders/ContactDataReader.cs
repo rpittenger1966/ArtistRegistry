@@ -26,14 +26,14 @@ namespace ArtistRegistry.Standard.Data
 			o.DeviantArt = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "DeviantArt");
 			o.Email = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Email");
 			o.Facebook = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Facebook");
-			o.FullName = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "FullName");
+			o.FirstName = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "FirstName");
 			o.Gender = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Gender");
 			o.Generation = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Generation");
 			o.InitialSource = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "InitialSource");
 			o.Instagram = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Instagram");
 			o.LastName = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "LastName");
 			o.ModifyDate = ArtistRegistry.Standard.Data.AdoHelper.ReadNullableDateTime(reader, "ModifyDate");
-			o.OhioArtistREgistry = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "OhioArtistREgistry");
+			o.OhioArtistRegistry = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "OhioArtistRegistry");
 			o.Phone = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Phone");
 			o.PostalCode = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "PostalCode");
 			o.State = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "State");

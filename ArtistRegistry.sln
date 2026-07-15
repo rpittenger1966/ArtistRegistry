@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtistRegistry.Standard.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtistRegistry.Core.WebScraperLibrary", "ArtistRegistry.Core.WebScraperLibrary\ArtistRegistry.Core.WebScraperLibrary.csproj", "{212AA635-7039-4E95-A0A5-69BA25B1BF94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraperApp", "WebScraperApp\WebScraperApp.csproj", "{F12A9046-0093-4654-8984-FC40DE8F66BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtistRegistry.WebScaper.Tests", "ArtistRegistry.WebScaper.Tests\ArtistRegistry.WebScaper.Tests.csproj", "{65F9EBC3-D06C-4233-A58E-4071293CB791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{212AA635-7039-4E95-A0A5-69BA25B1BF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{212AA635-7039-4E95-A0A5-69BA25B1BF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{212AA635-7039-4E95-A0A5-69BA25B1BF94}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F12A9046-0093-4654-8984-FC40DE8F66BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F12A9046-0093-4654-8984-FC40DE8F66BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F12A9046-0093-4654-8984-FC40DE8F66BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F12A9046-0093-4654-8984-FC40DE8F66BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F9EBC3-D06C-4233-A58E-4071293CB791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F9EBC3-D06C-4233-A58E-4071293CB791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F9EBC3-D06C-4233-A58E-4071293CB791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F9EBC3-D06C-4233-A58E-4071293CB791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

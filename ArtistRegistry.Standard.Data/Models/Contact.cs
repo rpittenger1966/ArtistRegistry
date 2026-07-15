@@ -20,14 +20,14 @@ namespace ArtistRegistry.Standard.Data
 		public string DeviantArt { get; set; }
 		public string Email { get; set; }
 		public string Facebook { get; set; }
-		public string FullName { get; set; }
+		public string FirstName { get; set; }
 		public string Gender { get; set; }
 		public string Generation { get; set; }
 		public string InitialSource { get; set; }
 		public string Instagram { get; set; }
 		public string LastName { get; set; }
 		public DateTime? ModifyDate { get; set; }
-		public string OhioArtistREgistry { get; set; }
+		public string OhioArtistRegistry { get; set; }
 		public string Phone { get; set; }
 		public string PostalCode { get; set; }
 		public string State { get; set; }
@@ -48,14 +48,14 @@ namespace ArtistRegistry.Standard.Data
 			DeviantArt = "";
 			Email = "";
 			Facebook = "";
-			FullName = "";
+			FirstName = "";
 			Gender = "";
 			Generation = "";
 			InitialSource = "";
 			Instagram = "";
 			LastName = "";
 			ModifyDate = null;
-			OhioArtistREgistry = "";
+			OhioArtistRegistry = "";
 			Phone = "";
 			PostalCode = "";
 			State = "";
