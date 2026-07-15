@@ -1,0 +1,1137 @@
+[
+  'C:\\Program Files\\nodejs\\node.exe',
+  'M:\\Visual Studio Solutions\\WebScraperResearch\\Scrape2\\index.js',
+  'https://oovar.ohioartscouncil.org/char/s/',
+  'M:\\Visual Studio Solutions\\ArtistRegistry\\OhioArtistryPages\\FirstLetter\\S.html'
+]
+-----------------
+0: C:\Program Files\nodejs\node.exe
+1: M:\Visual Studio Solutions\WebScraperResearch\Scrape2\index.js
+2: https://oovar.ohioartscouncil.org/char/s/
+3: M:\Visual Studio Solutions\ArtistRegistry\OhioArtistryPages\FirstLetter\S.html
+-----------------
+First value is https://oovar.ohioartscouncil.org/char/s/
+Second value is M:\Visual Studio Solutions\ArtistRegistry\OhioArtistryPages\FirstLetter\S.html
+-- Done --
+URL:: https://oovar.ohioartscouncil.org/char/s/
+Requesting https://oovar.ohioartscouncil.org/char/s/
+Requesting https://oovar.ohioartscouncil.org/wp-content/js/iframeResizer.contentWindow.min.js
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/theme-my-login/assets/styles/theme-my-login.min.css?ver=7.1.14
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-business-directory-login/assets/css/cn-login-user.min.css?ver=3.4
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-enhanced-categories/assets/css/cn-category-list.min.css?ver=7.0.1
+Requesting https://oovar.ohioartscouncil.org/wp-includes/css/dashicons.min.css?ver=7.0.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-widgets/assets/css/cn-widgets.min.css?ver=7.0.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/maxmegamenu/style.css?ver=689c2f
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/style.css?ver=7.0.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/dist/frontend/style.css?ver=10.4.66-1744823137
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/templates/profile/profile.css?ver=3.0
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-circled/circled.min.css?ver=1.4.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-gridder/gridder.min.css?ver=1.5
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-slim-plus/slim-plus.min.css?ver=2.4
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-tile-plus/tile-plus.min.css?ver=4.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/css/virtue.css?ver=3.4.15
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/css/skins/default.css?ver=3.4.15
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/Clean/style.css?ver=1.0.0
+Requesting https://fonts.googleapis.com/css?family=Lato:400&ver=7.0.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/icomoon-brands/style.css?ver=10.4.66
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/leaflet/leaflet.css?ver=1.7.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/leaflet/geocoder/Control.Geocoder.css?ver=2.4.0
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/chosen/chosen.min.css?ver=1.8.7
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-form/css/cn-form-user.min.css?ver=3.1
+Requesting https://oovar.ohioartscouncil.org/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/say-what/assets/build/frontend.js?ver=fd31684c45e4d85aeb4e
+Requesting https://oovar.ohioartscouncil.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+Requesting https://oovar.ohioartscouncil.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+Requesting https://www.google.com/recaptcha/api.js?hl=en-US&ver=7.0.1
+Requesting https://fonts.googleapis.com/css?family=Source+Sans+Pro
+Requesting https://www.oac.ohio.gov/Portals/0/js/iframeResizer.contentWindow.js
+Requesting https://artslearning.ohioartscouncil.org/wp-content/js/iframeResizer.contentWindow.min.js
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/picturefill/picturefill.min.js?ver=3.0.2
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.min.js?ver=7.1.14
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.4.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/bootstrap-min.js?ver=3.4.15
+Requesting https://oovar.ohioartscouncil.org/wp-includes/js/hoverIntent.min.js?ver=1.10.2
+Requesting https://oovar.ohioartscouncil.org/wp-includes/js/imagesloaded.min.js?ver=5.0.0
+Requesting https://oovar.ohioartscouncil.org/wp-includes/js/masonry.min.js?ver=4.2.2
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=3.4.15
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/magnific-popup-min.js?ver=3.4.15
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/virtue-lightbox-init-min.js?ver=3.4.15
+Requesting https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/main-min.js?ver=3.4.15
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.10.6
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/chosen/chosen.jquery.min.js?ver=1.8.7
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/connections-circled/circled.min.js?ver=1.4.1
+Requesting https://oovar.ohioartscouncil.org/wp-content/js/iframe-resizer.child
+Requesting https://www.gstatic.com/recaptcha/releases/rL1ELiQAg1kPezz6_H9hTZ_i/recaptcha__en.js
+Requesting https://oac.ohio.gov/Portals/0/js/iframeResizer.contentWindow.js
+Requesting https://oac.ohio.gov/static/prd
+Requesting https://dam.assets.ohio.gov/raw/upload/oac.ohio.gov/prd
+[32minfo[39m: TypeError: undefined is not a constructor (evaluating 'E[2][E[1]](H+J)')
+[32minfo[39m:   https://www.gstatic.com/recaptcha/releases/rL1ELiQAg1kPezz6_H9hTZ_i/recaptcha__en.js:490 in v
+[32minfo[39m:   https://www.gstatic.com/recaptcha/releases/rL1ELiQAg1kPezz6_H9hTZ_i/recaptcha__en.js:971
+Requesting data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/dist/images/search.png
+Requesting https://fonts.gstatic.com/s/sourcesanspro/v23/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf
+Requesting https://oovar.ohioartscouncil.org/wp-includes/fonts/dashicons.ttf?99ac726223c749443b642ce33df8b800
+Requesting https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wWw.ttf
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/icomoon-brands/fonts/Connections-Brandicons.ttf?pwccrc
+Requesting data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/eliana-saari/Eliana-ea607d73f0f0e1c70798a60a62a21c0c.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/georgio-sabino/Pop-Art-2020-GS3-2-51311419517ab573051562a7d25cfaba.png
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/adin-sadic/adin-self-eba4c8fbe4b77f8a71efebfd02909ec6.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jordann-sadler/IMG_5818-1-22d21178d6b294e214c756d100725d6f.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/sara-sadri/Screenshot-2023-05-02-134335-ac7a0caf327692cd1bd2fb5df51ccb49.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/miku-saeki/SAEKI_MIKU_PORTRAIT-copy-d4d2e2e7a6a23056db7c82dea7506be3.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/robert-sako/Profile024-ad26c5440ce3724ed5f61246b154bb38.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jonathan-salisbury/Jonathan_Salisbury_-9b8b2e6e24cd17c76dd1f328fbf765cc.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/mattjew-salvaggio/Matthew-Salvaggio-babb762695f463f65b4f6f6e6c11aec0.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/chloe-margaret-sampson/701562360.745061_Original-042f70ca830f8be2f408ce2d414ea18e.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/sammy-sanchez/photo-1-c2a14aac3fb447f40c987b99ed936d4f.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/bill-sanders/2EA10527-DA30-49BD-A670-E4BCF26BFDFC-86a4ed6f71fbc5844d0b05f40d066428.jpeg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/robert-sankner/IMG_4648-4a1da424689e0c0bde49dfc218f282cc.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/kate-santucci/ClosetoShore2024-3739790eac69291a7a06d9083bbc11a2.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/lynda-sappington/Whatcha-Doin-Down-There-20x16-3da5376f113820a8b8f8ef8c0fbf0edb.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/john-sargent/EIDOLON-20x16-2025-bdff541e5d00d912dd0b3da44a5b9d3e.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/philip-sarsany/Graduation-CSCC-d4cacddc5faa144153382ea4f034f6ee.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/paul-sarver/FullSizeRender-aedf1fd1c3150dc407a277ff83542dd1.jpeg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/allison-sasso/IP5A0057-051169bdfe17015f1d4099e034bc9cca.jpg
+Requesting https://oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jesse-satterfield/Screen-Shot-2023-09-15-at-3.10.47-PM-22ec29c9a9f47bc7c65dab0814f5533f.png
+[32minfo[39m: TypeError: undefined is not a constructor (evaluating '$('#nested')')
+[32minfo[39m:   https://oovar.ohioartscouncil.org/char/s/:1012 in global code
+Requesting https://oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/chosen/chosen-sprite.png
+STATUS:: success
+CONTENT:: <html class="js-running" lang="en-US" itemscope="itemscope" itemtype="https://schema.org/WebPage" style=""><head><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/rL1ELiQAg1kPezz6_H9hTZ_i/recaptcha__en.js" crossorigin="anonymous"></script><script src="https://oovar.ohioartscouncil.org/wp-content/js/iframeResizer.contentWindow.min.js"></script>
+
+
+
+  <base target="_self">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ohio Arts Council Artist Registry</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="Ohio Arts Council Artist Registry ┬╗ Feed" href="https://oovar.ohioartscouncil.org/feed/">
+<link rel="alternate" type="application/rss+xml" title="Ohio Arts Council Artist Registry ┬╗ Comments Feed" href="https://oovar.ohioartscouncil.org/comments/feed/">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://oovar.ohioartscouncil.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foovar.ohioartscouncil.org%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://oovar.ohioartscouncil.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foovar.ohioartscouncil.org%2F&amp;format=xml">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--virtue-primary: #2d5c88;--wp--preset--color--virtue-primary-light: #6c8dab;--wp--preset--color--very-light-gray: #eee;--wp--preset--color--very-dark-gray: #444;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-virtue-primary-color{color: var(--wp--preset--color--virtue-primary) !important;}.has-virtue-primary-light-color{color: var(--wp--preset--color--virtue-primary-light) !important;}.has-very-light-gray-color{color: var(--wp--preset--color--very-light-gray) !important;}.has-very-dark-gray-color{color: var(--wp--preset--color--very-dark-gray) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-virtue-primary-background-color{background-color: var(--wp--preset--color--virtue-primary) !important;}.has-virtue-primary-light-background-color{background-color: var(--wp--preset--color--virtue-primary-light) !important;}.has-very-light-gray-background-color{background-color: var(--wp--preset--color--very-light-gray) !important;}.has-very-dark-gray-background-color{background-color: var(--wp--preset--color--very-dark-gray) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-virtue-primary-border-color{border-color: var(--wp--preset--color--virtue-primary) !important;}.has-virtue-primary-light-border-color{border-color: var(--wp--preset--color--virtue-primary-light) !important;}.has-very-light-gray-border-color{border-color: var(--wp--preset--color--very-light-gray) !important;}.has-very-dark-gray-border-color{border-color: var(--wp--preset--color--very-dark-gray) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel="stylesheet" id="theme-my-login-css" href="https://oovar.ohioartscouncil.org/wp-content/plugins/theme-my-login/assets/styles/theme-my-login.min.css?ver=7.1.14" media="all">
+<link rel="stylesheet" id="cn-login-public-css" href="https://oovar.ohioartscouncil.org/wp-content/plugins/connections-business-directory-login/assets/css/cn-login-user.min.css?ver=3.4" media="all">
+<link rel="stylesheet" id="cn-category-list-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/connections-enhanced-categories/assets/css/cn-category-list.min.css?ver=7.0.1" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://oovar.ohioartscouncil.org/wp-includes/css/dashicons.min.css?ver=7.0.1" media="all">
+<link rel="stylesheet" id="cn-widgets-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/connections-widgets/assets/css/cn-widgets.min.css?ver=7.0.1" media="all">
+<link rel="stylesheet" id="megamenu-css" href="https://oovar.ohioartscouncil.org/wp-content/uploads/maxmegamenu/style.css?ver=689c2f" media="all">
+<link rel="stylesheet" id="virtue-style-css" href="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/style.css?ver=7.0.1" media="all">
+<link rel="stylesheet" id="cn-public-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/dist/frontend/style.css?ver=10.4.66-1744823137" media="all">
+<link rel="stylesheet" id="cnt-profile-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/templates/profile/profile.css?ver=3.0" media="all">
+<link rel="stylesheet" id="cnt-circled-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/connections-circled/circled.min.css?ver=1.4.1" media="all">
+<link rel="stylesheet" id="cnt-gridder-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/connections-gridder/gridder.min.css?ver=1.5" media="all">
+<link rel="stylesheet" id="cnt-slim-plus-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/connections-slim-plus/slim-plus.min.css?ver=2.4" media="all">
+<link rel="stylesheet" id="cnt-tile-plus-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/connections-tile-plus/tile-plus.min.css?ver=4.1" media="all">
+<link rel="stylesheet" id="virtue_theme-css" href="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/css/virtue.css?ver=3.4.15" media="all">
+<link rel="stylesheet" id="virtue_skin-css" href="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/css/skins/default.css?ver=3.4.15" media="all">
+<link rel="stylesheet" id="virtue_child-css" href="https://oovar.ohioartscouncil.org/wp-content/themes/Clean/style.css?ver=1.0.0" media="all">
+<link rel="stylesheet" id="redux-google-fonts-virtue-css" href="https://fonts.googleapis.com/css?family=Lato:400&amp;ver=7.0.1" media="all">
+<link rel="stylesheet" id="cn-brandicons-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/icomoon-brands/style.css?ver=10.4.66" media="all">
+<link rel="stylesheet" id="leaflet-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/leaflet/leaflet.css?ver=1.7.1" media="all">
+<link rel="stylesheet" id="leaflet-control-geocoder-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/leaflet/geocoder/Control.Geocoder.css?ver=2.4.0" media="all">
+<link rel="stylesheet" id="cn-chosen-css" href="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/chosen/chosen.min.css?ver=1.8.7" media="all">
+<link rel="stylesheet" id="cn-form-public-css" href="https://oovar.ohioartscouncil.org/wp-content/plugins/connections-form/css/cn-form-user.min.css?ver=3.1" media="all">
+<script id="wp-hooks-js" src="https://oovar.ohioartscouncil.org/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="say-what-js-js-extra">
+var say_what_data = {"replacements":{"connections|Biography|":"Bio","|Latest Posts|":"Portfolio","connections|Custom Fields|":"Links"}};
+//# sourceURL=say-what-js-js-extra
+</script>
+<script id="say-what-js-js" src="https://oovar.ohioartscouncil.org/wp-content/plugins/say-what/assets/build/frontend.js?ver=fd31684c45e4d85aeb4e"></script>
+<script id="jquery-core-js" src="https://oovar.ohioartscouncil.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://oovar.ohioartscouncil.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="recaptcha-js" src="https://www.google.com/recaptcha/api.js?hl=en-US&amp;ver=7.0.1"></script>
+<link rel="https://api.w.org/" href="https://oovar.ohioartscouncil.org/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://oovar.ohioartscouncil.org/wp-json/wp/v2/pages/19"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://oovar.ohioartscouncil.org/xmlrpc.php?rsd">
+<link rel="canonical" href="https://oovar.ohioartscouncil.org/">
+<link rel="shortlink" href="https://oovar.ohioartscouncil.org/">
+<style type="text/css">#logo {padding-top:25px;}#logo {padding-bottom:10px;}#logo {margin-left:0px;}#logo {margin-right:0px;}#nav-main {margin-top:40px;}#nav-main {margin-bottom:10px;}.headerfont, .tp-caption {font-family:Lato;}.topbarmenu ul li {font-family:Lato;}input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } input[type=number] {-moz-appearance: textfield;}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {display: none;}.product_item .product_details h5 {text-transform: none;}.product_item .product_details h5 {min-height:40px;}.entry-content p { margin-bottom:16px;}</style><style id="wp-custom-css">
+body p{font-family:source sans pro;font-weight:400; font-size:16px !important;}
+div.flexslider{display:none !important;}
+div.cn-alphaindex{float:left !important; padding-top:32px;}
+div.vcard{padding-right:12px !important; background:white !important;}
+div.cn-entry{background:white !important;}
+li.cn-list-action-item{list-style:none;}
+.cn-entry-content-block-list{padding-top:24px !important;}
+img.size-large{margin-top:75px;padding:34px !important;border: 1px solid red;}
+.lightgray{background-color:lightgray;}
+.family-name {font-family:source sans pro;}
+.homepagecontent {font-family:source sans pro;}
+.chosen-single .cn-category-select{color:black;}
+.cn-entry-content-block-map-block{display:none;}
+.cn-gmap-single{display:none;}
+span.cn-phone-number{display:none !important;}
+span.street-address{display:none !important;}
+span.address-name{display:none !important;}
+.cn-alphaindex{margin-top:0px !important;}
+.bluelink{color:#00ADEF !important}
+.entry-title{display:none !important;}
+.page-header{display:none !important;}
+.bluebutton{margin-bottom:12px !important;}
+a.archivelink:link {font-style: underline !important;}
+.exhibit-button{padding-top:10px !important;}
+</style>
+<style type="text/css" title="dynamic-css" class="options-output">header #logo a.brand,.logofont{font-family:Lato;line-height:40px;font-weight:400;font-style:normal;font-size:32px;}.kad_tagline{font-family:Lato;line-height:20px;font-weight:400;font-style:normal;color:#444444;font-size:14px;}.product_item .product_details h5{font-family:Lato;line-height:20px;font-weight:normal;font-style:700;font-size:16px;}h1{font-family:Lato;line-height:40px;font-weight:normal;font-style:400;font-size:38px;}h2{font-family:Lato;line-height:40px;font-weight:normal;font-style:normal;font-size:32px;}h3{font-family:Lato;line-height:40px;font-weight:normal;font-style:400;font-size:28px;}h4{font-family:Lato;line-height:40px;font-weight:normal;font-style:400;font-size:24px;}h5{font-family:Lato;line-height:24px;font-weight:normal;font-style:700;font-size:18px;}body{font-family:Verdana, Geneva, sans-serif;line-height:20px;font-weight:normal;font-style:400;font-size:14px;}#nav-main ul.sf-menu a{font-family:Lato;line-height:18px;font-weight:normal;font-style:400;font-size:12px;}#nav-second ul.sf-menu a{font-family:Lato;line-height:22px;font-weight:normal;font-style:400;font-size:18px;}.kad-nav-inner .kad-mnav, .kad-mobile-nav .kad-nav-inner li a,.nav-trigger-case{font-family:Lato;line-height:20px;font-weight:normal;font-style:400;font-size:16px;}</style>  <base target="_self">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+
+    <script>
+      window.iFrameResizer = {
+        onReady: function() {
+          var myId = window.parentIFrame.getId()
+          console.log('The ID of the iFrame in the parent page is: ' + myId)
+        }
+      }
+    </script>
+<script src="https://www.oac.ohio.gov/Portals/0/js/iframeResizer.contentWindow.js"></script>
+<script>
+            function geek() {
+                //Scrolling the document to position "250"
+                //horizontally and "110" vertically
+                window.scrollTo(10, 1500);
+        }
+        </script>
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+	<body class="home wp-singular page-template page-template-page-fullwidth page-template-page-fullwidth-php page page-id-19 wp-embed-responsive wp-theme-virtue wp-child-theme-Clean mega-menu-primary-navigation wide" style="">
+	<div id="kt-skip-link"><a href="#content">Skip to Main Content</a></div>
+	<div id="wrapper" class="container">
+	<header class="banner headerclass" itemscope="" itemtype="http://schema.org/WPHeader">
+
+
+
+<!--  Login Menu   -->
+
+</header></div> <!-- Close Container -->
+
+
+
+
+
+
+
+
+
+  <div class=" kad-header-right catlinks">
+  <!--  <h4 class="catlinks red alignleftup">Categories</h4> -->
+    <nav id="nav-main" class="clearfix" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+   <strong>    <div id="mega-menu-wrap-primary_navigation" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-1" id="mega-toggle-block-1"><span aria-expanded="false" aria-haspopup="true" role="button" class="mega-toggle-label"><span class="mega-toggle-label-closed">MENU</span><span class="mega-toggle-label-open">MENU</span></span></div></div></div><ul id="mega-menu-primary_navigation" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-menu-item-home mega-menu-item-654" id="mega-menu-item-654"><a class="mega-menu-link" href="https://oovar.ohioartscouncil.org/" aria-current="page">Home</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-8560" id="mega-menu-item-8560"><a class="mega-menu-link" href="https://oovar.ohioartscouncil.org/2026-ohio-artist-registry-exhibition/">Exhibition</a></li><li class="mega-nmr-logged-out mega-menu-item mega-menu-item-type-tml_action mega-menu-item-object-login mega-menu-item-498 nmr-logged-out" id="mega-menu-item-498"><a class="mega-menu-link" href="https://oovar.ohioartscouncil.org/login/">Log In</a></li><li class="mega-nmr-logged-out mega-menu-item mega-menu-item-type-tml_action mega-menu-item-object-register mega-menu-item-500 nmr-logged-out" id="mega-menu-item-500"><a class="mega-menu-link" href="https://oovar.ohioartscouncil.org/register/">Register</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-597" id="mega-menu-item-597"><a target="_blank" class="mega-menu-link" href="https://oac.ohio.gov/static/pdfs/ArtistRegistry-AddRegistration-Instructions.pdf">Help/Support</a></li></ul></div> 
+</strong></nav><strong>
+   </strong></div><strong>
+
+   <!-- Close menuclass-->
+ 
+ <!-- Close Row -->
+
+	<div class="wrap contentclass" role="document">
+
+			<div id="homeheader" class="welcomeclass">
+			<div class="container">
+				<div class="page-header">
+					<h1 class="entry-title" itemprop="name">
+						Ohio Artist Registry					</h1>
+				</div>
+			</div><!--container-->
+		</div><!--welomeclass-->
+	
+	<div id="content" class="container homepagecontent">
+		<div class="row">
+			<div class="main col-md-12" role="main">
+				<div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="http://schema.org/WebPageElement">
+
+													<div class="homecontent clearfix home-margin"> 
+										
+<style type="text/css">a.button { background-color: #0076A3; /* OAC Blue*/ border: none; color: white !important; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 4px; -webkit-transition-duration: 0.4s; /* Safari */ transition-duration: 0.4s; }
+a.button:hover{ background-color: white; color: #0076A3 !important; /* Blue */ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
+</style>
+<div dir="ltr" style="padding-top:6px;text-align:center;display: block;margin-left: auto;margin-right: auto;">
+<p style="align:middle;"><a class="button" href="https://oovar.ohioartscouncil.org/register/">Sign up for the Ohio Artist Registry</a></p>
+</div>
+
+
+
+<p></p><p>The <strong>Ohio Artist Registry</strong> <strong>(OAR)</strong>&nbsp;is an exciting opportunity for artists to share their work, connect with the creative community, and establish an online presenceΓÇöall on a free, virtual platform!&nbsp;The&nbsp;<strong>OAR</strong> encourages artists working in all art forms, throughout Ohio and beyond,&nbsp; to create a profile, which allows them to&nbsp;better promote themselves and their work.&nbsp;Being listed in the OAR provides artists with new opportunities to&nbsp;share their work with clients, galleries, patrons, and audiences.&nbsp;A listing in the OAR does not confer an endorsement, approval, or verification by the Ohio Arts Council.<br>For more information, contact Kathy Signorino, artist programs director, at <a href="mailto:kathy.signorino@oac.ohio.gov">kathy.signorino@oac.ohio.gov</a> or 614-728-6140.</p><a name="top"></a><p></p>
+
+
+
+<div dir="ltr" style="padding-top:6px;text-align:center;display: block;margin-left: auto;margin-right: auto;">
+<p style="align:middle;"><a class="button" href="https://oovar.ohioartscouncil.org/2026-ohio-artist-registry-exhibition/">2026 Ohio Artist Registry Juried Exhibition</a></p>
+</div>
+
+
+<div id="cn-top" style="position: absolute; top: 0; right: 0;"></div><div class="cn-list" id="cn-list" data-connections-version="10.4.66-0.7"><div class="cn-template cn-circled" id="cn-circled" data-template-version="1.4.1"><div class="cn-list-head">
+<ul class="cn-list-actions">
+</ul>
+
+<div id="cn-search-messages"><ul class="cn-search-message-list">
+	<li class="cn-search-message-list-item" id="cn-search-message-list-item-cn-char">The results are being filtered by the character: s</li>
+</ul><div id="cn-clear-search"><a class="button btn" id="cn-clear-search-button" href="https://oovar.ohioartscouncil.org/">Clear Search</a></div>
+</div>
+
+<form class="cn-form" id="cn-cat-select" method="get"><input type="hidden" name="page_id" value="19"><span class="cn-search"><label for="cn-search-input">Search Directory</label><input type="text" id="cn-search-input" name="cn-s" value="" placeholder="Search"><input type="submit" name="" id="cn-search-submit" class="cn-search-button" value="Search Directory" style="text-indent: -9999px;" tabindex="-1"></span><select class="cn-category-select cn-enhanced-select" name="cn-cat" onchange="this.form.submit()" data-placeholder="Select Category" style="display: none;">
+	<option></option>	<option value="0">Show All Categories</option><option class="cn-term-level-0" style="padding-left: 7px !important" value="235">Folk and Traditional Arts</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="236">Oral History</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="237">Storytelling</option><option class="cn-term-level-0" style="padding-left: 7px !important" value="109">Performing Arts</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="218">Dance</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="221">Ballet</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="223">Ethnic</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="222">Hip-Hop</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="219">Jazz</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="220">Modern</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="206">Music</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="207">Band</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="208">Chamber</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="209">Choral</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="217">Electronic</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="211">Ethnic</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="216">Folk</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="212">Jazz</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="210">New Music</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="215">Opera</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="214">Orchestral</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="213">Popular</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="234">World</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="238">Theatre</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="241">Actor</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="239">Children's Theatre</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="240">Director</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="133">Musical Theatre</option><option class="cn-term-level-0" style="padding-left: 7px !important" value="1">Uncategorized</option><option class="cn-term-level-0" style="padding-left: 7px !important" value="108">Visual Art</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="137">Disciplines</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="147">Animation</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="226">Ceramics</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="143">Collage</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="151">Design</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="242">Digital</option><option class="cn-term-level-3" style="padding-left: 43px !important" value="243">NFT</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="141">Drawing</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="152">Illustration</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="154">Installation</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="149">Jewelry</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="155">Mosaic</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="153">Multidisciplinary</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="156">Murals</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="140">Painting</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="158">Performance</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="145">Photography</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="148">Printmaking</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="142">Sculpture</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="150">Textiles</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="227">Video</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="157">Weaving</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="139">Genres</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="194">Abstract</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="192">Collaborative</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="193">Collective</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="228">Conceptual</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="198">Earthworks</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="204">Environmental</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="187">Figurative</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="190">Folk</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="229">Landscape</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="199">Narrative</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="196">Nonrepresentational</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="202">Portrait</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="201">Public Art</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="195">Representational</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="200">Site Specific</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="203">Social Engagement</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="189">Still Life</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="191">Traditional</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="138">Materials</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="185">3D Printing</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="159">Acrylic</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="164">Charcoal</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="171">Clay</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="173">Concrete</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="166">Digital/Web Based</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="176">Encaustic</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="168">Fabric</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="169">Fiber</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="184">Film</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="170">Found Object</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="182">Glass</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="181">India Ink</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="175">Intaglio</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="174">Light</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="177">Linocut</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="167">Metal</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="230">Mixed Media</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="160">Oil</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="161">Paper</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="231">Pastels</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="163">Pencil</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="179">Plant Based</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="180">Spray Paint</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="165">Watercolor</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="183">Wood</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="178">Woodblock</option><option class="cn-term-level-0" style="padding-left: 7px !important" value="107">Writing</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="113">Fiction</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="114">ChildrenΓÇÖs Literature</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="115">Fantasy</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="116">Folklore</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="117">Historical</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="118">Horror</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="225">Humor</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="120">Inspirational</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="121">Mystery</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="122">Romance</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="123">SciFi</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="124">Non-Fiction</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="126">Autobiographical</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="232">Biographical</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="131">Criticism</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="127">Essays</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="128">Memoir</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="129">Narrative</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="130">Speech</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="135">One-Act</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="134">Opera</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="233">Playwriting</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="110">Poetry</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="111">Performance</option><option class="cn-term-level-2" style="padding-left: 31px !important" value="112">Prose</option><option class="cn-term-level-1" style="padding-left: 19px !important" value="224">Screenwriting</option></select><div class="chosen-container chosen-container-single" title="" style="width: 250px;"><a class="chosen-single chosen-default">
+  <span>Select Category</span>
+  <div><b></b></div>
+</a>
+<div class="chosen-drop">
+  <div class="chosen-search">
+    <input class="chosen-search-input" type="text" autocomplete="off">
+  </div>
+  <ul class="chosen-results"></ul>
+</div></div>
+</form><h5 style="margin-bottom:0px;">Artist by Last Name</h5><div class="cn-alphaindex">
+ <a class="cn-char" title="4" href="https://oovar.ohioartscouncil.org/char/4/">4</a>
+ <a class="cn-char" title="A" href="https://oovar.ohioartscouncil.org/char/A/">A</a>
+ <a class="cn-char" title="B" href="https://oovar.ohioartscouncil.org/char/B/">B</a>
+ <a class="cn-char" title="C" href="https://oovar.ohioartscouncil.org/char/C/">C</a>
+ <a class="cn-char" title="D" href="https://oovar.ohioartscouncil.org/char/D/">D</a>
+ <a class="cn-char" title="E" href="https://oovar.ohioartscouncil.org/char/E/">E</a>
+ <a class="cn-char" title="F" href="https://oovar.ohioartscouncil.org/char/F/">F</a>
+ <a class="cn-char" title="G" href="https://oovar.ohioartscouncil.org/char/G/">G</a>
+ <a class="cn-char" title="H" href="https://oovar.ohioartscouncil.org/char/H/">H</a>
+ <a class="cn-char" title="I" href="https://oovar.ohioartscouncil.org/char/I/">I</a>
+ <a class="cn-char" title="J" href="https://oovar.ohioartscouncil.org/char/J/">J</a>
+ <a class="cn-char" title="K" href="https://oovar.ohioartscouncil.org/char/K/">K</a>
+ <a class="cn-char" title="L" href="https://oovar.ohioartscouncil.org/char/L/">L</a>
+ <a class="cn-char" title="M" href="https://oovar.ohioartscouncil.org/char/M/">M</a>
+ <a class="cn-char" title="N" href="https://oovar.ohioartscouncil.org/char/N/">N</a>
+ <a class="cn-char" title="O" href="https://oovar.ohioartscouncil.org/char/O/">O</a>
+ <a class="cn-char" title="P" href="https://oovar.ohioartscouncil.org/char/P/">P</a>
+ <a class="cn-char" title="Q" href="https://oovar.ohioartscouncil.org/char/Q/">Q</a>
+ <a class="cn-char" title="R" href="https://oovar.ohioartscouncil.org/char/R/">R</a>
+ <a class="cn-char" title="S" href="https://oovar.ohioartscouncil.org/char/S/">S</a>
+ <a class="cn-char" title="T" href="https://oovar.ohioartscouncil.org/char/T/">T</a>
+ <a class="cn-char" title="U" href="https://oovar.ohioartscouncil.org/char/U/">U</a>
+ <a class="cn-char" title="V" href="https://oovar.ohioartscouncil.org/char/V/">V</a>
+ <a class="cn-char" title="W" href="https://oovar.ohioartscouncil.org/char/W/">W</a>
+ <a class="cn-char" title="Y" href="https://oovar.ohioartscouncil.org/char/Y/">Y</a>
+ <a class="cn-char" title="Z" href="https://oovar.ohioartscouncil.org/char/Z/">Z</a>
+</div>
+</div>
+<div class="cn-list-body" id="cn-list-body">
+<div class="cn-list-row cn-list-item vcard individual drawing figurative installation landscape narrative-genres printmaking textiles" id="eliana-saari" data-entry-type="individual" data-entry-id="241" data-entry-slug="eliana-saari"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://www.elianacallesaari.com" target="_blank" rel="nofollow"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of 6147953219 Eliana Saari MFA" title="Photo of 6147953219 Eliana Saari MFA" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/eliana-saari/Eliana-ea607d73f0f0e1c70798a60a62a21c0c.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/eliana-saari/Eliana-ea607d73f0f0e1c70798a60a62a21c0c.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Eliana Saari" href="https://oovar.ohioartscouncil.org/name/eliana-saari#top/"><span class="fn n notranslate"><span class="given-name">Eliana</span> <span class="family-name">Saari</span></span></a>
+</h3>
+		<p class="title notranslate">Faculty</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Eliana Calle Saari, born in Medellin, Colombia. She has split her time teaching and making art professionally. Currently, Eliana is a faculty member in the Art Department at Ohio Dominican University and an adjunct professor at her alma mater Otterbein University. In addition, she is currently a member of the Phoenix Rising Cooperative in Columbus, Ohio.&nbsp;&nbsp;</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/eliana-saari#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network cn-preferred cn-social-media-network-preferred"><a class="url instagram" href="https://www.instagram.com/elianacallesaari/" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual design digital-web-based murals painting photography public-art" id="georgio-sabino" data-entry-type="individual" data-entry-id="136" data-entry-slug="georgio-sabino"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/georgio-sabino#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Mr. Georgio Sabino III" title="Photo of Mr. Georgio Sabino III" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/georgio-sabino/Pop-Art-2020-GS3-2-51311419517ab573051562a7d25cfaba.png 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/georgio-sabino/Pop-Art-2020-GS3-2-51311419517ab573051562a7d25cfaba.png"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Georgio Sabino" href="https://oovar.ohioartscouncil.org/name/georgio-sabino#top/"><span class="fn n notranslate"><span class="given-name">Georgio</span> <span class="family-name">Sabino</span></span></a>
+</h3>
+		<p class="title notranslate">Artist</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Georgio Sabino III is the chief visionary and strategist for GS3 Inc. collaborative approach to the arts.  Georgio was a 1999 graduate of Kent State University.  He earned an M.A. in Art Education from Case Western Reserve University/Cleveland Institute of Art in 2009.  He is an advocate for art.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/georgio-sabino#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network cn-preferred cn-social-media-network-preferred"><a class="url facebook" href="https://www.facebook.com/GS3Photography/%20" target="_blank" rel="noopener noreferrer nofollow" title="Facebook"><i class="cn-brandicon-facebook cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.instagram.com/gs3photographer/" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url twitter" href="https://twitter.com/GS3Photography" target="_blank" rel="noopener noreferrer nofollow" title="Twitter"><i class="cn-brandicon-twitter cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual painting sculpture visual-art" id="adin-sadic" data-entry-type="individual" data-entry-id="578" data-entry-slug="adin-sadic"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/adin-sadic#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Adin Sadic" title="Photo of Adin Sadic" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/adin-sadic/adin-self-eba4c8fbe4b77f8a71efebfd02909ec6.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/adin-sadic/adin-self-eba4c8fbe4b77f8a71efebfd02909ec6.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Adin Sadic" href="https://oovar.ohioartscouncil.org/name/adin-sadic#top/"><span class="fn n notranslate"><span class="given-name">Adin</span> <span class="family-name">Sadic</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>I paint landscapes, portraits, figure and abstract paintings. Acrylic and mixed media are my primary techniques. I also dipped my toe in ΓÇ£lost waxΓÇ¥ ΓÇô bronze sculpting technique.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/adin-sadic#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual fiction poetry screen-writing writing" id="jordann-sadler" data-entry-type="individual" data-entry-id="936" data-entry-slug="jordann-sadler"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://jvsadlerauthor.wixsite.com/blog" target="_blank" rel="nofollow"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Jordann Verchelle Sadler" title="Photo of Jordann Verchelle Sadler" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jordann-sadler/IMG_5818-1-22d21178d6b294e214c756d100725d6f.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jordann-sadler/IMG_5818-1-22d21178d6b294e214c756d100725d6f.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Jordann Sadler" href="https://oovar.ohioartscouncil.org/name/jordann-sadler#top/"><span class="fn n notranslate"><span class="given-name">Jordann</span> <span class="family-name">Sadler</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Jordann ΓÇ£J.V.ΓÇ¥ Sadler is a writer, scholar, and educator born and raised in Cincinnati, Ohio USA</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/jordann-sadler#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network cn-preferred cn-social-media-network-preferred"><a class="url facebook" href="https://www.facebook.com/JVSadlerAuthor/" target="_blank" rel="noopener noreferrer nofollow" title="Facebook"><i class="cn-brandicon-facebook cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.instagram.com/jvsadler" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual actor animation design digital digital-web-based director drawing film illustration multidisciplinary murals painting performance-disciplines photography screen-writing storytelling" id="sara-sadri" data-entry-type="individual" data-entry-id="621" data-entry-slug="sara-sadri"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/sara-sadri#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Sara A. Sadri" title="Photo of Sara A. Sadri" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/sara-sadri/Screenshot-2023-05-02-134335-ac7a0caf327692cd1bd2fb5df51ccb49.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/sara-sadri/Screenshot-2023-05-02-134335-ac7a0caf327692cd1bd2fb5df51ccb49.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Sara Sadri" href="https://oovar.ohioartscouncil.org/name/sara-sadri#top/"><span class="fn n notranslate"><span class="given-name">Sara</span> <span class="family-name">Sadri</span></span></a>
+</h3>
+		<p class="title notranslate">Owner/President</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Art and Entertainment Studio producing podcasts, animation, comics and more!<br>
+Bringing Dreams to Reality</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/sara-sadri#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url facebook" href="https://www.facebook.com/TheTheoryofCreativity/" target="_blank" rel="noopener noreferrer nofollow" title="Facebook"><i class="cn-brandicon-facebook cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.instagram.com/ttofcreativity/" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual jewelry metal visual-art" id="miku-saeki" data-entry-type="individual" data-entry-id="856" data-entry-slug="miku-saeki"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/miku-saeki#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Miku Saeki" title="Photo of Miku Saeki" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/miku-saeki/SAEKI_MIKU_PORTRAIT-copy-d4d2e2e7a6a23056db7c82dea7506be3.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/miku-saeki/SAEKI_MIKU_PORTRAIT-copy-d4d2e2e7a6a23056db7c82dea7506be3.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Miku Saeki" href="https://oovar.ohioartscouncil.org/name/miku-saeki#top/"><span class="fn n notranslate"><span class="given-name">Miku</span> <span class="family-name">Saeki</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p class="p1"><span class="s1">Miku Saeki (b.1998) is an object/ contemporary jewelry artist based in the United States. She received her Bachelor of Fine Arts in Contemporary Crafts at Columbus College of Art &amp; Design and her Master of Fine Arts in Metalsmithing at Cranbrook Academy of Art. Her practice is a process of finding selfhood and boundaries.</span>ΓÇª</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/miku-saeki#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.instagram.com/miku_saeki_/" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual visual-art" id="robert-sako" data-entry-type="individual" data-entry-id="795" data-entry-slug="robert-sako"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/robert-sako#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Robert Sako" title="Photo of Robert Sako" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/robert-sako/Profile024-ad26c5440ce3724ed5f61246b154bb38.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/robert-sako/Profile024-ad26c5440ce3724ed5f61246b154bb38.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Robert Sako" href="https://oovar.ohioartscouncil.org/name/robert-sako#top/"><span class="fn n notranslate"><span class="given-name">Robert</span> <span class="family-name">Sako</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>I have been an artist and art teacher for most of my adult life. I have painted in a variety of styles and media, but have focused on pastels for the past five years. While I enjoy exploring a variety of subject matter, I especially enjoy landscapes, especially plein aire.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/robert-sako#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual chamber jazz-dance new-music performing-arts world" id="jonathan-salisbury" data-entry-type="individual" data-entry-id="622" data-entry-slug="jonathan-salisbury"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://www.jonathansalisbury.info/current-projects-1" target="_blank" rel="nofollow"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Jonathan Salisbury" title="Photo of Jonathan Salisbury" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jonathan-salisbury/Jonathan_Salisbury_-9b8b2e6e24cd17c76dd1f328fbf765cc.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jonathan-salisbury/Jonathan_Salisbury_-9b8b2e6e24cd17c76dd1f328fbf765cc.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Jonathan Salisbury" href="https://oovar.ohioartscouncil.org/name/jonathan-salisbury#top/"><span class="fn n notranslate"><span class="given-name">Jonathan</span> <span class="family-name">Salisbury</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Jonathan is a musician, composer, songwriter and music producer in Cincinnati, OH. He is also a very experienced actor director and theatre producer and has written several length stage plays which were presented in Los Angeles, CA and in the UK.&nbsp;</p>
+<p>On the piano, Jonathan offers spontaneous compositions/improvisations which include influences from artists such as Keith Jarrett, Herrbie Hancock, Erik Satie and Debussy.&nbsp;</p>
+<p>He likes to collaborate with other musicians and performing artists to create unique audience experiences. For current, past and future collaborations, please visit his website:&nbsp;https://www.jonathansalisbury.info/</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/jonathan-salisbury#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual band music orchestral" id="mattjew-salvaggio" data-entry-type="individual" data-entry-id="395" data-entry-slug="mattjew-salvaggio"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="http://www.matthewsalvaggio.com" target="_blank" rel="nofollow"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Matthew Salvaggio" title="Photo of Matthew Salvaggio" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/mattjew-salvaggio/Matthew-Salvaggio-babb762695f463f65b4f6f6e6c11aec0.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/mattjew-salvaggio/Matthew-Salvaggio-babb762695f463f65b4f6f6e6c11aec0.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Matthew Salvaggio" href="https://oovar.ohioartscouncil.org/name/mattjew-salvaggio#top/"><span class="fn n notranslate"><span class="given-name">Matthew</span> <span class="family-name">Salvaggio</span></span></a>
+</h3>
+		<p class="title notranslate">Music Director and Founder</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p><span style="font-weight: 400">Conductor</span> Matthew Salvaggio <span style="font-weight: 400">is a dynamic artist dedicated to exploring and promoting new music, reimagining diverse orchestral performance experiences, and creating equitable access to music education.</span></p>
+<p><span style="font-weight: 400">He founded the Cleveland Repertory Orchestra in 2021 to explore the breadth of the orchestral repertoire, with an emphasis on new music and music by historically excluded voices.</span>ΓÇª</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/mattjew-salvaggio#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url facebook" href="http://masconductor" target="_blank" rel="noopener noreferrer nofollow" title="Facebook"><i class="cn-brandicon-facebook cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="http://masconductor" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url twitter" href="http://masconductor" target="_blank" rel="noopener noreferrer nofollow" title="Twitter"><i class="cn-brandicon-twitter cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual multidisciplinary" id="chloe-margaret-sampson" data-entry-type="individual" data-entry-id="829" data-entry-slug="chloe-margaret-sampson"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/chloe-margaret-sampson#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Chloe Margaret Sampson" title="Photo of Chloe Margaret Sampson" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/chloe-margaret-sampson/701562360.745061_Original-042f70ca830f8be2f408ce2d414ea18e.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/chloe-margaret-sampson/701562360.745061_Original-042f70ca830f8be2f408ce2d414ea18e.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Chloe Margaret Sampson" href="https://oovar.ohioartscouncil.org/name/chloe-margaret-sampson#top/"><span class="fn n notranslate"><span class="given-name">Chloe Margaret</span> <span class="family-name">Sampson</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>My name is Chloe Margaret and I am a sculptural artist currently living in Athens, Ohio. I am a student at Ohio University majoring in Sculpture and Expanded Practice. I love creating work that explores the human relationship with nature. I am a multimedia maker, but my favorites to work with are metals, clay, and foraged materials.&nbsp;</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/chloe-margaret-sampson#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual band" id="sammy-sanchez" data-entry-type="individual" data-entry-id="1220" data-entry-slug="sammy-sanchez"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/sammy-sanchez#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Sammy Sanchez" title="Photo of Sammy Sanchez" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/sammy-sanchez/photo-1-c2a14aac3fb447f40c987b99ed936d4f.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/sammy-sanchez/photo-1-c2a14aac3fb447f40c987b99ed936d4f.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Sammy Sanchez" href="https://oovar.ohioartscouncil.org/name/sammy-sanchez#top/"><span class="fn n notranslate"><span class="given-name">Sammy</span> <span class="family-name">Sanchez</span></span></a>
+</h3>
+		<p class="title notranslate">Band Leader/Percussionist</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Deleon ΓÇÿs passion and love for Latin music led to a career as a percussionist, bandleader, Salsa and Latin Jazz educator. Regarded as one of the most renowned percussionists of our time, has transcended genre, style and class into a musical career spanning (5) decades, which revels in rich influences from the 70s to the present. In 2025, Sammy Deleon y Orquesta, celebrate a milestone 30-year anniversary, and he has no plans of slowing down!</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/sammy-sanchez#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url facebook" href="https://www.facebook.com/sammy.s.place.2025" target="_blank" rel="noopener noreferrer nofollow" title="Facebook"><i class="cn-brandicon-facebook cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual abstract acrylic band conceptual digital folk-music music new-music painting performing-arts popular spray-paint visual-art" id="bill-sanders" data-entry-type="individual" data-entry-id="662" data-entry-slug="bill-sanders"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/bill-sanders#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Bill Sanders" title="Photo of Bill Sanders" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/bill-sanders/2EA10527-DA30-49BD-A670-E4BCF26BFDFC-86a4ed6f71fbc5844d0b05f40d066428.jpeg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/bill-sanders/2EA10527-DA30-49BD-A670-E4BCF26BFDFC-86a4ed6f71fbc5844d0b05f40d066428.jpeg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Bill Sanders" href="https://oovar.ohioartscouncil.org/name/bill-sanders#top/"><span class="fn n notranslate"><span class="given-name">Bill</span> <span class="family-name">Sanders</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Bill Sanders is working in acrylic pour painting and spray paint on canvas. He is also an accomplished song writer and performer. Bill does solo original shows on acoustic guitar and vocals. He also is a founding member of the band ΓÇ£Punky FloydΓÇ¥ which is an a acoustic duo doing a unique and original tribute to the music of Pink Floyd and David Bowie.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/bill-sanders#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual painting" id="robert-sankner" data-entry-type="individual" data-entry-id="885" data-entry-slug="robert-sankner"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://www.robertsanknerfineart.com/" target="_blank" rel="nofollow"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Robert Sankner" title="Photo of Robert Sankner" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/robert-sankner/IMG_4648-4a1da424689e0c0bde49dfc218f282cc.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/robert-sankner/IMG_4648-4a1da424689e0c0bde49dfc218f282cc.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Robert Sankner" href="https://oovar.ohioartscouncil.org/name/robert-sankner#top/"><span class="fn n notranslate"><span class="given-name">Robert</span> <span class="family-name">Sankner</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p class="p1">Robert Sankner was born in 1951 and raised in Carteret, New Jersey, a small suburb across the river from Staten Island, with a thirty minute drive into Manhattan. He now lives in Hamilton, Ohio, about twenty five miles from Cincinnati.</p>
+<p class="p1">&nbsp;</p>
+<p class="p1">Robert SanknerΓÇÖs interest in art started early with comic books, especially Marvel Comics.ΓÇª</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/robert-sankner#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual abstract encaustic figurative mixed-media nonrepresentational painting sculpture textiles" id="kate-santucci" data-entry-type="individual" data-entry-id="1147" data-entry-slug="kate-santucci"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/kate-santucci#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Kate Huser Santucci" title="Photo of Kate Huser Santucci" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/kate-santucci/ClosetoShore2024-3739790eac69291a7a06d9083bbc11a2.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/kate-santucci/ClosetoShore2024-3739790eac69291a7a06d9083bbc11a2.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Kate Santucci" href="https://oovar.ohioartscouncil.org/name/kate-santucci#top/"><span class="fn n notranslate"><span class="given-name">Kate</span> <span class="family-name">Santucci</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Kate Huser Santucci lives and works in Dayton, Ohio. She graduated from Wright State University in 1994 with a BFA in visual art with a concentration in sculpture. She completed a residency in encaustic painting with artist Patricia Seggebruch in 2019, and was the recipient of a Montgomery County Arts and Cultural District and Culture Works Artist Opportunity Grant in both 2020 and 2025. She was recently awarded a residency in France to take place in the autumn of 2025. Kate works primarily in encaustic and cold wax painting and sculpture.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/kate-santucci#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url facebook" href="https://www.facebook.com/KateSantucciArt" target="_blank" rel="noopener noreferrer nofollow" title="Facebook"><i class="cn-brandicon-facebook cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network cn-preferred cn-social-media-network-preferred"><a class="url instagram" href="https://www.instagram.com/katesantucciart/" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual painting sculpture" id="lynda-sappington" data-entry-type="individual" data-entry-id="675" data-entry-slug="lynda-sappington"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://www.LyndaSappington.com" target="_blank" rel="nofollow"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Lynda Sappington" title="Photo of Lynda Sappington" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/lynda-sappington/Whatcha-Doin-Down-There-20x16-3da5376f113820a8b8f8ef8c0fbf0edb.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/lynda-sappington/Whatcha-Doin-Down-There-20x16-3da5376f113820a8b8f8ef8c0fbf0edb.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Lynda Sappington" href="https://oovar.ohioartscouncil.org/name/lynda-sappington#top/"><span class="fn n notranslate"><span class="given-name">Lynda</span> <span class="family-name">Sappington</span></span></a>
+</h3>
+		<p class="title notranslate">Artist</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>As a self-taught sculptor, Lynda Sappington produces sculptures of horses, wildlife, etc., in bronze and resin, which are collected worldwide. She has made custom trophies for horse shows, horse breed associations and racetracks across the US and Canada. Montana Silversmiths had Lynda do two sculptures for them. She made a monumental bronze of a Friesian stallion for the Fenway Foundation of Friesian Horses. Two of her bronzes are the top perpetual trophies at the Global Dressage Festival (GDF) in Wellington, Florida, another is a USDF year-end award and one resides in the USDF Hall of Fame.</p>
+<p>During the pandemic, Lynda began taking painting classes online. She has learned a wide variety of techniques from Jennifer Vranes (www.letsdabbleart.com) and Bruce Marion (www.BruceonArt.com). Since she began painting, she has done several commissioned paintings and sold many others. What can she make for you?</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/lynda-sappington#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network cn-preferred cn-social-media-network-preferred"><a class="url facebook" href="https://www.facebook.com/LyndaSappingtonArt" target="_blank" rel="noopener noreferrer nofollow" title="Facebook"><i class="cn-brandicon-facebook cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="http://@lynda_sappington" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual painting" id="john-sargent" data-entry-type="individual" data-entry-id="1335" data-entry-slug="john-sargent"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/john-sargent#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of MR John Allston Sargent III" title="Photo of MR John Allston Sargent III" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/john-sargent/EIDOLON-20x16-2025-bdff541e5d00d912dd0b3da44a5b9d3e.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/john-sargent/EIDOLON-20x16-2025-bdff541e5d00d912dd0b3da44a5b9d3e.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="John Sargent" href="https://oovar.ohioartscouncil.org/name/john-sargent#top/"><span class="fn n notranslate"><span class="given-name">John</span> <span class="family-name">Sargent</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>John A Sargent III is a full time Cleveland based artist. His paintings are in the permanent Collections of Progressive Insurance Company, Cleveland Metrohealth Hospital, Ronald McDonald House, Weatherhead School of Management, The Cleveland Clinic, Nacco Corporation, Calfee Halter &amp; Griswold LLP, Summa Akron, Bennetton Corporation, US Supreme Court among others. His paintings are represented in private collections nationally and internationally.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/john-sargent#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.facebook.com/john.a.sargent.iii/" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.instagram.com/johnasargentiii/?hl=en" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual textiles weaving" id="philip-sarsany" data-entry-type="individual" data-entry-id="594" data-entry-slug="philip-sarsany"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/philip-sarsany#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Philip Sarsany" title="Photo of Philip Sarsany" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/philip-sarsany/Graduation-CSCC-d4cacddc5faa144153382ea4f034f6ee.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/philip-sarsany/Graduation-CSCC-d4cacddc5faa144153382ea4f034f6ee.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Philip Sarsany" href="https://oovar.ohioartscouncil.org/name/philip-sarsany#top/"><span class="fn n notranslate"><span class="given-name">Philip</span> <span class="family-name">Sarsany</span></span></a>
+</h3>
+		<p class="title notranslate">Textiles Artist</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Philip Sarsany is a Textiles and Mixed Media Artist living in Ohio since 2015. He weaves on his floor looms located in his studio in Urbancrest. He also dyes the yarn for his tapestries and woven pieces. Philip is currently preparing a series of handwoven textiles for an exhibition in the Fall 2023.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/philip-sarsany#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual painting" id="paul-sarver" data-entry-type="individual" data-entry-id="1180" data-entry-slug="paul-sarver"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/paul-sarver#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Paul W Sarver" title="Photo of Paul W Sarver" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/paul-sarver/FullSizeRender-aedf1fd1c3150dc407a277ff83542dd1.jpeg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/paul-sarver/FullSizeRender-aedf1fd1c3150dc407a277ff83542dd1.jpeg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Paul Sarver" href="https://oovar.ohioartscouncil.org/name/paul-sarver#top/"><span class="fn n notranslate"><span class="given-name">Paul</span> <span class="family-name">Sarver</span></span></a>
+</h3>
+		<p class="title notranslate">Painter</p>
+
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>IΓÇÖm a retired social worker and school counselor. &nbsp;I just completed my fourteenth painting. &nbsp;Someone told me it takes thirty before you start to get the hang of it. &nbsp;I paint so slowly I hope to reach that goal.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/paul-sarver#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row cn-list-item vcard individual design digital textiles" id="allison-sasso" data-entry-type="individual" data-entry-id="1282" data-entry-slug="allison-sasso"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/allison-sasso#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Allison Sasso" title="Photo of Allison Sasso" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/allison-sasso/IP5A0057-051169bdfe17015f1d4099e034bc9cca.jpg 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/allison-sasso/IP5A0057-051169bdfe17015f1d4099e034bc9cca.jpg"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Allison Sasso" href="https://oovar.ohioartscouncil.org/name/allison-sasso#top/"><span class="fn n notranslate"><span class="given-name">Allison</span> <span class="family-name">Sasso</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Allison is a UX/UI Designer and textile artist based out of Columbus, Ohio. Her textile works focus on an improv piecing method and impressionist style of observing the world around her. She is a member of the Clintonville Arts Guild and teaches quilting classes at Sew to Speak. </p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/allison-sasso#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.instagram.com/alliesassosews" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+<div class="cn-list-row-alternate cn-list-item vcard individual fiber multidisciplinary sculpture textiles visual-art weaving" id="jesse-satterfield" data-entry-type="individual" data-entry-id="765" data-entry-slug="jesse-satterfield"><div class="cn-circled-thumb" style="width: 110px; height: 110px;">
+
+	<span class="cn-image-style"><span style="display: block; max-width: 100%; width: 100px"><a href="https://oovar.ohioartscouncil.org/name/jesse-satterfield#top/"><img height="100" width="100" permalink="1" sizes="auto, 100vw" lazyload="1" class="cn-image photo" alt="Photo of Jesse Edward Satterfield" title="Photo of Jesse Edward Satterfield" srcset="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jesse-satterfield/Screen-Shot-2023-09-15-at-3.10.47-PM-22ec29c9a9f47bc7c65dab0814f5533f.png 1x" loading="lazy" src="//oovar.ohioartscouncil.org/wp-content/uploads/connections-images/jesse-satterfield/Screen-Shot-2023-09-15-at-3.10.47-PM-22ec29c9a9f47bc7c65dab0814f5533f.png"></a></span></span>
+
+
+</div> <!-- END .cn-circled-thumb -->
+
+<div class="cn-circled-content" style="margin-left: 125px; min-height: 125px">
+
+	<div class="cn-circled-name">
+
+		<h3><a title="Jesse Satterfield" href="https://oovar.ohioartscouncil.org/name/jesse-satterfield#top/"><span class="fn n notranslate"><span class="given-name">Jesse</span> <span class="family-name">Satterfield</span></span></a>
+</h3>
+		
+	</div>
+
+	<div class="cn-circled-excerpt">
+		<p>
+			</p><div class="cn-excerpt"><p>Jesse Satterfield holds a Master of Arts in Critical Studies and a Bachelor of Fine Arts in Fiber and Art History from the Maryland Institute College of Art (MICA). He suffered for six years as a production seamster, upholsterer, and art framer in the Mid-Atlantic interior design industry before returning to the magical realm of fine arts and academia in his pursuit of an MFA at Kent State University.</p>
+</div>
+		<p></p>
+	</div>
+
+	<div class="cn-circled-detail-link"><a href="https://oovar.ohioartscouncil.org/name/jesse-satterfield#top/"><strong style="font-size:14px;">Artist Profile</strong></a></div>
+</div> <!-- END .cn-circled-content -->
+
+<div class="cn-circled-contact" style="width: 110px; top: 120px">
+	<span class="social-media-block">
+	<span class="social-media-network cn-social-media-network"><a class="url instagram" href="https://www.instagram.com/jesseesatt/" target="_blank" rel="noopener noreferrer nofollow" title="Instagram"><i class="cn-brandicon-instagram cn-brandicon-size-16"></i></a></span>
+
+</span>
+
+</div> <!-- END .cn-circled-contact -->
+
+</div>
+</div>
+<div class="cn-list-foot">
+<span class="cn-page-nav" id="cn-page-nav"><span aria-current="page" class="page-numbers current"><span class="screen-reader-text">Page </span>1</span>
+<a class="page-numbers" href="https://oovar.ohioartscouncil.org/pg/2/?cn-char=s&amp;page_id=19"><span class="screen-reader-text">Page </span>2</a>
+<a class="page-numbers" href="https://oovar.ohioartscouncil.org/pg/3/?cn-char=s&amp;page_id=19"><span class="screen-reader-text">Page </span>3</a>
+<span class="page-numbers dots">ΓÇª</span>
+<a class="page-numbers" href="https://oovar.ohioartscouncil.org/pg/7/?cn-char=s&amp;page_id=19"><span class="screen-reader-text">Page </span>7</a>
+<a class="page-numbers" href="https://oovar.ohioartscouncil.org/pg/8/?cn-char=s&amp;page_id=19"><span class="screen-reader-text">Page </span>8</a>
+<a class="next page-numbers" href="https://oovar.ohioartscouncil.org/pg/2/?cn-char=s&amp;page_id=19">┬╗</a></span>
+</div>
+
+</div>
+
+</div>
+
+
+
+<script type="text/javascript" src="https://artslearning.ohioartscouncil.org/wp-content/js/iframeResizer.contentWindow.min.js" defer=""></script>
+									</div>
+												</div>
+			</div><!-- /.main -->			</div><!-- /.row-->
+		</div><!-- /.content -->
+	</div><!-- /.wrap -->
+	<div class="forcedown"></div>
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Clean/*","/wp-content/themes/virtue/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script type="text/javascript">function showhide_toggle(e,t,r,g){var a=jQuery("#"+e+"-link-"+t),s=jQuery("a",a),i=jQuery("#"+e+"-content-"+t),l=jQuery("#"+e+"-toggle-"+t);a.toggleClass("sh-show sh-hide"),i.toggleClass("sh-show sh-hide").toggle(),"true"===s.attr("aria-expanded")?s.attr("aria-expanded","false"):s.attr("aria-expanded","true"),l.text()===r?(l.text(g),a.trigger("sh-link:more")):(l.text(r),a.trigger("sh-link:less")),a.trigger("sh-link:toggle")}</script>
+	<script id="picturefill-js" src="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/picturefill/picturefill.min.js?ver=3.0.2"></script>
+<script id="theme-my-login-js-extra">
+var themeMyLogin = {"action":"","errors":[]};
+//# sourceURL=theme-my-login-js-extra
+</script>
+<script id="theme-my-login-js" src="https://oovar.ohioartscouncil.org/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.min.js?ver=7.1.14"></script>
+<script id="page-links-to-js" src="https://oovar.ohioartscouncil.org/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.4.1"></script>
+<script id="bootstrap-js" src="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/bootstrap-min.js?ver=3.4.15"></script>
+<script id="hoverIntent-js" src="https://oovar.ohioartscouncil.org/wp-includes/js/hoverIntent.min.js?ver=1.10.2"></script>
+<script id="imagesloaded-js" src="https://oovar.ohioartscouncil.org/wp-includes/js/imagesloaded.min.js?ver=5.0.0"></script>
+<script id="masonry-js" src="https://oovar.ohioartscouncil.org/wp-includes/js/masonry.min.js?ver=4.2.2"></script>
+<script id="virtue_plugins-js" src="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/plugins-min.js?ver=3.4.15"></script>
+<script id="magnific-popup-js" src="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/magnific-popup-min.js?ver=3.4.15"></script>
+<script id="virtue-lightbox-init-js-extra">
+var virtue_lightbox = {"loading":"Loading...","of":"%curr% of %total%","error":"The Image could not be loaded."};
+//# sourceURL=virtue-lightbox-init-js-extra
+</script>
+<script id="virtue-lightbox-init-js" src="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/virtue-lightbox-init-min.js?ver=3.4.15"></script>
+<script id="virtue_main-js" src="https://oovar.ohioartscouncil.org/wp-content/themes/virtue/assets/js/min/main-min.js?ver=3.4.15"></script>
+<script id="megamenu-js" src="https://oovar.ohioartscouncil.org/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.10.6"></script>
+<script id="jquery-chosen-js" src="//oovar.ohioartscouncil.org/wp-content/plugins/Connections-develop/assets/vendor/chosen/chosen.jquery.min.js?ver=1.8.7"></script>
+<script id="cnt-circled-js" src="//oovar.ohioartscouncil.org/wp-content/plugins/connections-circled/circled.min.js?ver=1.4.1"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://oovar.ohioartscouncil.org/wp-includes/js/wp-emoji-release.min.js?ver=7.0.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://oovar.ohioartscouncil.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+		<div style="display: block;margin-left: auto;margin-right: auto;text-align: center;">
+		<p><a name="savecontinue"></a></p>
+		<p style="text-align:right; padding-right:50px;">┬⌐ 2019-2026</p>
+	</div>
+
+    <script>
+      var level = document.location.search.replace(/\?/, '') || 0
+      $('#nested').attr('href', '/?' + ++level)
+    </script>
+
+    <script>
+      var iFrameResizer = {
+        onMessage: function(message) {
+          alert(message, parentIFrame.getId())
+        }
+      }
+    </script>
+
+    <script type="text/javascript" src="https://oovar.ohioartscouncil.org/wp-content/js/iframe-resizer.child" defer=""></script>
+
+	
+
+
+<!-- Dynamic page generated in 2.673 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-07-12 13:40:27 -->
+
+<!-- super cache --></strong><div id="topcontrol" title="To the top!" style="position: fixed; bottom: 52px; right: 0px; opacity: 0; cursor: pointer;"><div class="to_the_top"><div class="icon-arrow-up"></div></div></div></body></html>
