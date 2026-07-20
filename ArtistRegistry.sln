@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtistRegistry.Core.WebScra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtistRegistry.WebScaper.Tests", "ArtistRegistry.WebScaper.Tests\ArtistRegistry.WebScaper.Tests.csproj", "{65F9EBC3-D06C-4233-A58E-4071293CB791}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtistRegistryApp", "ArtistRegistryApp\ArtistRegistryApp.csproj", "{F96B93CA-7A98-4627-ADAE-48D7D3FE9ECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{65F9EBC3-D06C-4233-A58E-4071293CB791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F9EBC3-D06C-4233-A58E-4071293CB791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F9EBC3-D06C-4233-A58E-4071293CB791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96B93CA-7A98-4627-ADAE-48D7D3FE9ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96B93CA-7A98-4627-ADAE-48D7D3FE9ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96B93CA-7A98-4627-ADAE-48D7D3FE9ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96B93CA-7A98-4627-ADAE-48D7D3FE9ECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

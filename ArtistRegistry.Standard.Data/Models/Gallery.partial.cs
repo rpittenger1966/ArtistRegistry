@@ -4,12 +4,13 @@ using System.Text;
 
 namespace ArtistRegistry.Standard.Data
 {
-	public partial class Contact
+	public partial class Gallery
 	{
+
 		public override string ToString()
 		{
-			return $"{LastName}, {FirstName}";
+			return $"{this.Name}";
 		}
 
-	}  // end of class
-}  // end of namespace
+	}
+}

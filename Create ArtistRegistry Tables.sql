@@ -70,7 +70,7 @@ CREATE TABLE [dbo].[Contact](
 	[InitialSource] varchar(50) NULL,
 	[StatusId] int NOT NULL,
 	[CreateDate] [datetime] NOT NULL,
-	[ModifyDate] [datetime] NULL,
+	[ModifyDate] [datetime] NULL
  CONSTRAINT [PK_Contact] PRIMARY KEY CLUSTERED ([ContactId])
 );
 
@@ -145,6 +145,8 @@ CREATE TABLE [dbo].[FestivalEvent] (
 
 	[StartDate] [datetime] NOT NULL,
 	[EndDate] [datetime] NOT NULL,
+	[EntryDeadline] [datetime] NULL,
+	[EntryStatus] int NULL,
 
 	[CreateDate] [datetime] NOT NULL,
 	[ModifyDate] [datetime] NULL,
@@ -172,9 +174,15 @@ ALTER TABLE [dbo].[FestivalEventArtist]  WITH CHECK ADD  CONSTRAINT [FK_Festival
 CREATE TABLE [dbo].[GalleryExhibition] (
 	[GalleryExhibitionId] int identity(1,1) NOT NULL,
 	[GalleryId] int NOT NULL,
+	[Name] varchar(50) NOT NULL,
+	[ArtCallUrl] varchar(100) NOT NULL,
+	[ProspectusUrl] varchar(100) NOT NULL,
+	[Notes] varchar(max) NOT NULL,
 
 	[StartDate] [datetime] NOT NULL,
 	[EndDate] [datetime] NOT NULL,
+	[EntryDeadline] [datetime] NULL,
+	[EntryStatus] int NULL,
 
 	[CreateDate] [datetime] NOT NULL,
 	[ModifyDate] [datetime] NULL,

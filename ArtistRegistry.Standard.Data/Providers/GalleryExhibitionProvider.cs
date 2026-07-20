@@ -36,28 +36,52 @@ namespace ArtistRegistry.Standard.Data.Providers
 		public async Task<int> InsertGalleryExhibitionAsync(SqlConnection con, GalleryExhibition entity)
 		{
 			string sql = @"INSERT INTO [dbo].[GalleryExhibition]
-           ([Name]
-           ,[GalleryExhibitionTypeId]
-           ,[ParentId]
-           ,[StatusId]
-           ,[LegalName]
-           ,[ExternalIdentifier]
-           ,[TimeZone])
+           ([GalleryId]
+           ,[Name]
+           ,[ArtCallUrl]
+           ,[ProspectusUrl]
+           ,[Notes]
+
+           ,[StartDate]
+           ,[EndDate]
+           ,[EntryDeadline]
+           ,[EntryStatus]
+           ,[CreateDate])
      VALUES
-           (@Name
-           ,@GalleryExhibitionTypeId
-           ,@ParentId
-           ,@StatusId
-           ,@LegalName
-           ,@ExternalIdentifier
-           ,@TimeZone);";
+           (@GalleryId
+           ,@Name
+           ,@ArtCallUrl
+           ,@ProspectusUrl
+           ,@Notes
+
+           ,@StartDate
+           ,@EndDate
+           ,@EntryDeadline
+           ,@EntryStatus
+           ,getdate());";
 
 			sql = sql + "SELECT SCOPE_IDENTITY();";
 
 			using (SqlCommand command = new SqlCommand(sql, con))
 			{
-				command.Parameters.AddWithValue("FullName", entity.GalleryExhibitionId);
+				command.Parameters.AddWithValue("GalleryId", entity.GalleryId);
+				command.Parameters.AddWithValue("Name", entity.Name);
+				command.Parameters.AddWithValue("ArtCallUrl", entity.ArtCallUrl);
+				command.Parameters.AddWithValue("ProspectusUrl", entity.ProspectusUrl);
+				command.Parameters.AddWithValue("Notes", entity.Notes);
 
+				command.Parameters.AddWithValue("StartDate", entity.StartDate);
+				command.Parameters.AddWithValue("EndDate", entity.EndDate);
+
+				if (entity.EntryDeadline.HasValue)
+					command.Parameters.AddWithValue("EntryDeadline", entity.EntryDeadline);
+				else
+					command.Parameters.AddWithValue("EntryDeadline", DBNull.Value);
+
+				if (entity.EntryStatus.HasValue)
+					command.Parameters.AddWithValue("EntryStatus", entity.EntryStatus);
+				else
+					command.Parameters.AddWithValue("EntryStatus", DBNull.Value);
 				object o = await command.ExecuteScalarAsync();
 
 				int retval = Convert.ToInt32(o);
@@ -74,6 +98,27 @@ namespace ArtistRegistry.Standard.Data.Providers
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
 					return await GetGalleryExhibitionsAsync(con);
+				}
+			}
+			catch
+			{
+				throw;
+			}
+			finally
+			{
+				con?.Close();
+			}
+		}
+
+		public async Task<List<GalleryExhibition>> GetGalleryExhibitionsByQueryAsync(string sql)
+		{
+			SqlConnection con = null;
+
+			try
+			{
+				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+				{
+					return await GetGalleryExhibitionsByQueryAsync(con, sql);
 				}
 			}
 			catch
@@ -109,6 +154,29 @@ namespace ArtistRegistry.Standard.Data.Providers
 
 			return clientList;
 		}
+
+		public async Task<List<GalleryExhibition>> GetGalleryExhibitionsByQueryAsync(SqlConnection con, string sql)
+		{
+			List<GalleryExhibition> clientList = new List<GalleryExhibition>();
+
+			using (SqlCommand command = new SqlCommand(sql, con))
+			{
+				using (SqlDataReader reader = await command.ExecuteReaderAsync())
+				{
+					while (reader.Read())
+					{
+						GalleryExhibition client = GalleryExhibitionDataReader.BuildFromDataReader(reader);
+						if (client != null)
+						{
+							clientList.Add(client);
+						}
+					}
+				}
+			}
+
+			return clientList;
+		}
+
 
 
 		public async Task<GalleryExhibition> GetByIdAsync(int? id)
@@ -193,25 +261,40 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 			string sql = @"UPDATE [dbo].[GalleryExhibition]
    SET [Name] = @Name
-      ,[GalleryExhibitionTypeId] = @GalleryExhibitionTypeId
-      ,[ParentId] = @ParentId
-      ,[StatusId] = @StatusId
-      ,[LegalName] = @LegalName
-
-      ,[ExternalIdentifier] = @ExternalIdentifier
-      ,[ModifyBy] = @ModifyBy
-      ,[ModifyDate] = GETUTCDATE()
-      ,[TimeZone] = @TimeZone
-      ,[ComDataConnectionString] = @ComDataConnectionString
-      ,[ComDataShardCount] = @ComDataShardCount
- WHERE GalleryExhibitionId = @GalleryExhibitionId
-";
+      ,[ArtCallUrl] = @ArtCallUrl
+      ,[ProspectusUrl] = @ProspectusUrl
+      ,[Notes] = @Notes
+      ,[StartDate] = @StartDate
+      ,[EndDate] = @EndDate
+      ,[EntryDeadline] = @EntryDeadline
+      ,[EntryStatus] = @EntryStatus
+      ,[ModifyDate] = getdate()
+ WHERE GalleryExhibitionId = @GalleryExhibitionId;";
 
 			try
 			{
 				using (SqlCommand command = new SqlCommand(sql, con))
 				{
 					command.Parameters.AddWithValue("GalleryExhibitionId", entity.GalleryExhibitionId);
+
+					command.Parameters.AddWithValue("Name", entity.Name);
+					command.Parameters.AddWithValue("ArtCallUrl", entity.ArtCallUrl);
+					command.Parameters.AddWithValue("ProspectusUrl", entity.ProspectusUrl);
+					command.Parameters.AddWithValue("Notes", entity.Notes);
+
+					command.Parameters.AddWithValue("StartDate", entity.StartDate);
+					command.Parameters.AddWithValue("EndDate", entity.EndDate);
+
+					if (entity.EntryDeadline.HasValue)
+						command.Parameters.AddWithValue("EntryDeadline", entity.EntryDeadline);
+					else
+						command.Parameters.AddWithValue("EntryDeadline", DBNull.Value);
+
+					if (entity.EntryStatus.HasValue)
+						command.Parameters.AddWithValue("EntryStatus", entity.EntryStatus);
+					else
+						command.Parameters.AddWithValue("EntryStatus", DBNull.Value);
+					object o = await command.ExecuteScalarAsync();
 
 					await command.ExecuteNonQueryAsync();
 				}

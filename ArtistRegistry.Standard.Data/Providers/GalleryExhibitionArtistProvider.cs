@@ -12,7 +12,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 		}
 
-		public async Task<int> InsertGalleryExhibitionArtistAsync(GalleryExhibitionArtist entity)
+		public async Task InsertGalleryExhibitionArtistAsync(GalleryExhibitionArtist entity)
 		{
 			SqlConnection con = null;
 
@@ -20,7 +20,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					return await InsertGalleryExhibitionArtistAsync(con, entity);
+					await InsertGalleryExhibitionArtistAsync(con, entity);
 				}
 			}
 			catch
@@ -33,39 +33,25 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<int> InsertGalleryExhibitionArtistAsync(SqlConnection con, GalleryExhibitionArtist entity)
+		public async Task InsertGalleryExhibitionArtistAsync(SqlConnection con, GalleryExhibitionArtist entity)
 		{
 			string sql = @"INSERT INTO [dbo].[GalleryExhibitionArtist]
-           ([Name]
-           ,[GalleryExhibitionArtistTypeId]
-           ,[ParentId]
-           ,[StatusId]
-           ,[LegalName]
-           ,[ExternalIdentifier]
-           ,[TimeZone])
+           ([GalleryExhibitionId]
+           ,[ContactId])
      VALUES
-           (@Name
-           ,@GalleryExhibitionArtistTypeId
-           ,@ParentId
-           ,@StatusId
-           ,@LegalName
-           ,@ExternalIdentifier
-           ,@TimeZone);";
+           (@GalleryExhibitionId
+           ,@ContactId);";
 
-			sql = sql + "SELECT SCOPE_IDENTITY();";
 
 			using (SqlCommand command = new SqlCommand(sql, con))
 			{
-				command.Parameters.AddWithValue("FullName", entity.GalleryExhibitionId);
-
-				object o = await command.ExecuteScalarAsync();
-
-				int retval = Convert.ToInt32(o);
-				return retval;
+				command.Parameters.AddWithValue("GalleryExhibitionId", entity.GalleryExhibitionId);
+				command.Parameters.AddWithValue("ContactId", entity.ContactId);
+				await command.ExecuteNonQueryAsync();
 			}
 		}
 
-		public async Task<List<GalleryExhibitionArtist>> GetGalleryExhibitionArtistsAsync()
+		public async Task<List<GalleryExhibitionArtist>> GetGalleryExhibitionArtistsAsync(int galleryExihibitionId)
 		{
 			SqlConnection con = null;
 
@@ -73,7 +59,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					return await GetGalleryExhibitionArtistsAsync(con);
+					return await GetGalleryExhibitionArtistsAsync(con, galleryExihibitionId);
 				}
 			}
 			catch
@@ -86,9 +72,9 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<List<GalleryExhibitionArtist>> GetGalleryExhibitionArtistsAsync(SqlConnection con)
+		public async Task<List<GalleryExhibitionArtist>> GetGalleryExhibitionArtistsAsync(SqlConnection con, int galleryExihibitionId)
 		{
-			string sql = "SELECT * FROM [dbo].[GalleryExhibitionArtist] order by [Name]";
+			string sql = $"SELECT *  FROM [dbo].[GalleryExhibitionArtist] where GalleryExhibitionId = {galleryExihibitionId} order by ContactId desc";
 
 			List<GalleryExhibitionArtist> clientList = new List<GalleryExhibitionArtist>();
 
@@ -111,17 +97,15 @@ namespace ArtistRegistry.Standard.Data.Providers
 		}
 
 
-		public async Task<GalleryExhibitionArtist> GetByIdAsync(int? id)
+		public async Task<GalleryExhibitionArtist> GetByIdAsync(int galleryExhibitionId, int contactId)
 		{
-			if (id == null) return null;
-
 			SqlConnection con = null;
 
 			try
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					return await GetByIdAsync(id);
+					return await GetByIdAsync(con, galleryExhibitionId, contactId);
 				}
 			}
 			catch
@@ -134,12 +118,9 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<GalleryExhibitionArtist> GetByIdAsync(SqlConnection con, int? id)
+		public async Task<GalleryExhibitionArtist> GetByIdAsync(SqlConnection con, int galleryExhibitionId, int contactId)
 		{
-			if (id == null) return null;
-
-			string sql = $"SELECT * FROM [dbo].[GalleryExhibitionArtist] where GalleryExhibitionArtistId = {id}";
-
+			string sql = $"SELECT * FROM [dbo].[GalleryExhibitionArtist] where GalleryExhibitionId = {galleryExhibitionId} and [ContactId]={contactId};";
 
 			try
 			{
@@ -167,61 +148,67 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task UpdateGalleryExhibitionArtistAsync(GalleryExhibitionArtist entity)
+		//		public async Task UpdateGalleryExhibitionArtistAsync(GalleryExhibitionArtist entity)
+		//		{
+		//			SqlConnection con = null;
+
+		//			try
+		//			{
+		//				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+		//				{
+		//					await UpdateGalleryExhibitionArtistAsync(con, entity);
+		//				}
+		//			}
+		//			catch
+		//			{
+		//				throw;
+		//			}
+		//			finally
+		//			{
+		//				con?.Close();
+		//			}
+		//		}
+
+
+		//		public async Task UpdateGalleryExhibitionArtistAsync(SqlConnection con, GalleryExhibitionArtist entity)
+		//		{
+		//			string sql = @"UPDATE [dbo].[GalleryExhibitionArtist]
+		//   SET [Name] = @Name
+		//      ,[GalleryExhibitionArtistTypeId] = @GalleryExhibitionArtistTypeId
+		//      ,[ParentId] = @ParentId
+		//      ,[StatusId] = @StatusId
+		//      ,[LegalName] = @LegalName
+
+		//      ,[ExternalIdentifier] = @ExternalIdentifier
+		//      ,[ModifyBy] = @ModifyBy
+		//      ,[ModifyDate] = GETUTCDATE()
+		//      ,[TimeZone] = @TimeZone
+		//      ,[ComDataConnectionString] = @ComDataConnectionString
+		//      ,[ComDataShardCount] = @ComDataShardCount
+		// WHERE GalleryExhibitionArtistId = @GalleryExhibitionArtistId
+		//";
+
+		//			try
+		//			{
+		//				using (SqlCommand command = new SqlCommand(sql, con))
+		//				{
+		//					command.Parameters.AddWithValue("GalleryExhibitionArtistId", entity.GalleryExhibitionId);
+
+		//					await command.ExecuteNonQueryAsync();
+		//				}
+		//			}
+		//			catch (Exception ex)
+		//			{
+		//				throw new Exception($"Failed to update client {entity.GalleryExhibitionId}");
+		//			}
+		//		}
+
+		public async Task DeleteByIdAsync(int galleryExhibitionId, int contactId)
 		{
-			SqlConnection con = null;
+			string sql = $"DELETE FROM [dbo].[GalleryExhibitionArtist] where GalleryExhibitionId = {galleryExhibitionId} and [ContactId]={contactId};";
 
-			try
-			{
-				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
-				{
-					await UpdateGalleryExhibitionArtistAsync(con, entity);
-				}
-			}
-			catch
-			{
-				throw;
-			}
-			finally
-			{
-				con?.Close();
-			}
+			await base.ExecuteQueryAsync(sql, "faile to delete");
 		}
-
-
-		public async Task UpdateGalleryExhibitionArtistAsync(SqlConnection con, GalleryExhibitionArtist entity)
-		{
-			string sql = @"UPDATE [dbo].[GalleryExhibitionArtist]
-   SET [Name] = @Name
-      ,[GalleryExhibitionArtistTypeId] = @GalleryExhibitionArtistTypeId
-      ,[ParentId] = @ParentId
-      ,[StatusId] = @StatusId
-      ,[LegalName] = @LegalName
-
-      ,[ExternalIdentifier] = @ExternalIdentifier
-      ,[ModifyBy] = @ModifyBy
-      ,[ModifyDate] = GETUTCDATE()
-      ,[TimeZone] = @TimeZone
-      ,[ComDataConnectionString] = @ComDataConnectionString
-      ,[ComDataShardCount] = @ComDataShardCount
- WHERE GalleryExhibitionArtistId = @GalleryExhibitionArtistId
-";
-
-			try
-			{
-				using (SqlCommand command = new SqlCommand(sql, con))
-				{
-					command.Parameters.AddWithValue("GalleryExhibitionArtistId", entity.GalleryExhibitionId);
-
-					await command.ExecuteNonQueryAsync();
-				}
-			}
-			catch (Exception ex)
-			{
-				throw new Exception($"Failed to update client {entity.GalleryExhibitionId}");
-			}
-		}
-
 
 
 	}  // end of class

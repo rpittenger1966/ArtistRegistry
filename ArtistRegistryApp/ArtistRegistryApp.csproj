@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>SSAYS02C.ICO</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SSAYS02C.ICO" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArtistRegistry.Standard.Common\ArtistRegistry.Standard.Common.csproj" />
+    <ProjectReference Include="..\ArtistRegistry.Standard.Data\ArtistRegistry.Standard.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -37,26 +37,59 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 			string sql = @"INSERT INTO [dbo].[Gallery]
            ([Name]
-           ,[GalleryTypeId]
-           ,[ParentId]
-           ,[StatusId]
-           ,[LegalName]
-           ,[ExternalIdentifier]
-           ,[TimeZone])
+           ,[Address1]
+           ,[Address2]
+           ,[City]
+           ,[State]
+           
+		   ,[PostalCode]
+           ,[Country]
+           ,[Phone]
+           ,[EmailAddress]
+           ,[WebSite]
+           
+		   ,[Facebook]
+           ,[Instagram]
+           ,[DeviantArt]
+           ,[YouTube]
+           ,[CreateDate])
      VALUES
            (@Name
-           ,@GalleryTypeId
-           ,@ParentId
-           ,@StatusId
-           ,@LegalName
-           ,@ExternalIdentifier
-           ,@TimeZone);";
+           ,@Address1
+           ,@Address2
+           ,@City
+           ,@State
+           ,@PostalCode
+           ,@Country
+           ,@Phone
+           ,@EmailAddress
+           ,@WebSite
+           ,@Facebook
+           ,@Instagram
+           ,@DeviantArt
+           ,@YouTube
+           ,getdate());";
 
 			sql = sql + "SELECT SCOPE_IDENTITY();";
 
 			using (SqlCommand command = new SqlCommand(sql, con))
 			{
-				command.Parameters.AddWithValue("FullName", entity.Name);
+				command.Parameters.AddWithValue("Name", entity.Name);
+				command.Parameters.AddWithValue("Address1", entity.Address1);
+				command.Parameters.AddWithValue("Address2", entity.Address2);
+				command.Parameters.AddWithValue("City", entity.City);
+				command.Parameters.AddWithValue("State", entity.State);
+
+				command.Parameters.AddWithValue("PostalCode", entity.PostalCode);
+				command.Parameters.AddWithValue("Country", entity.Country);
+				command.Parameters.AddWithValue("Phone", entity.Phone);
+				command.Parameters.AddWithValue("EmailAddress", entity.EmailAddress);
+				command.Parameters.AddWithValue("WebSite", entity.WebSite);
+
+				command.Parameters.AddWithValue("Facebook", entity.Facebook);
+				command.Parameters.AddWithValue("Instagram", entity.Instagram);
+				command.Parameters.AddWithValue("DeviantArt", entity.DeviantArt);
+				command.Parameters.AddWithValue("YouTube", entity.YouTube);
 
 				object o = await command.ExecuteScalarAsync();
 
@@ -193,17 +226,23 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 			string sql = @"UPDATE [dbo].[Gallery]
    SET [Name] = @Name
-      ,[GalleryTypeId] = @GalleryTypeId
-      ,[ParentId] = @ParentId
-      ,[StatusId] = @StatusId
-      ,[LegalName] = @LegalName
+      ,[Address1] = @Address1
+      ,[Address2] = @Address2
+      ,[City] = @City
+      ,[State] = @State
 
-      ,[ExternalIdentifier] = @ExternalIdentifier
-      ,[ModifyBy] = @ModifyBy
-      ,[ModifyDate] = GETUTCDATE()
-      ,[TimeZone] = @TimeZone
-      ,[ComDataConnectionString] = @ComDataConnectionString
-      ,[ComDataShardCount] = @ComDataShardCount
+      ,[PostalCode] = @PostalCode
+      ,[Country] = @Country
+      ,[Phone] = @Phone
+      ,[EmailAddress] = @EmailAddress
+      ,[WebSite] = @WebSite
+
+      ,[Facebook] = @Facebook
+      ,[Instagram] = @Instagram
+      ,[DeviantArt] = @DeviantArt
+      ,[YouTube] = @YouTube
+
+      ,[ModifyDate] = getdate()
  WHERE GalleryId = @GalleryId
 ";
 
@@ -213,12 +252,29 @@ namespace ArtistRegistry.Standard.Data.Providers
 				{
 					command.Parameters.AddWithValue("GalleryId", entity.GalleryId);
 
+					command.Parameters.AddWithValue("Name", entity.Name);
+					command.Parameters.AddWithValue("Address1", entity.Address1);
+					command.Parameters.AddWithValue("Address2", entity.Address2);
+					command.Parameters.AddWithValue("City", entity.City);
+					command.Parameters.AddWithValue("State", entity.State);
+
+					command.Parameters.AddWithValue("PostalCode", entity.PostalCode);
+					command.Parameters.AddWithValue("Country", entity.Country);
+					command.Parameters.AddWithValue("Phone", entity.Phone);
+					command.Parameters.AddWithValue("EmailAddress", entity.EmailAddress);
+					command.Parameters.AddWithValue("WebSite", entity.WebSite);
+
+					command.Parameters.AddWithValue("Facebook", entity.Facebook);
+					command.Parameters.AddWithValue("Instagram", entity.Instagram);
+					command.Parameters.AddWithValue("DeviantArt", entity.DeviantArt);
+					command.Parameters.AddWithValue("YouTube", entity.YouTube);
+
 					await command.ExecuteNonQueryAsync();
 				}
 			}
 			catch (Exception ex)
 			{
-				throw new Exception($"Failed to update client {entity.GalleryId}");
+				throw new Exception($"Failed to update gallery {entity.GalleryId}");
 			}
 		}
 

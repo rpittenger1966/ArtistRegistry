@@ -152,6 +152,27 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
+		public async Task<List<Contact>> GetContactsByQueryAsync(string sql)
+		{
+			SqlConnection con = null;
+
+			try
+			{
+				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+				{
+					return await GetContactsByQueryAsync(con, sql);
+				}
+			}
+			catch
+			{
+				throw;
+			}
+			finally
+			{
+				con?.Close();
+			}
+		}
+
 		public async Task<List<Contact>> GetContactsAsync(SqlConnection con)
 		{
 			string sql = "SELECT * FROM [dbo].[Contact] order by [ContactId]";
@@ -176,6 +197,28 @@ namespace ArtistRegistry.Standard.Data.Providers
 			return clientList;
 		}
 
+
+		public async Task<List<Contact>> GetContactsByQueryAsync(SqlConnection con, string sql)
+		{
+			List<Contact> clientList = new List<Contact>();
+
+			using (SqlCommand command = new SqlCommand(sql, con))
+			{
+				using (SqlDataReader reader = await command.ExecuteReaderAsync())
+				{
+					while (reader.Read())
+					{
+						Contact client = ContactDataReader.BuildFromDataReader(reader);
+						if (client != null)
+						{
+							clientList.Add(client);
+						}
+					}
+				}
+			}
+
+			return clientList;
+		}
 
 		public async Task<Contact> GetByIdAsync(int? id)
 		{
@@ -254,7 +297,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 		public async Task UpdateContactAsync(SqlConnection con, Contact entity)
 		{
 			string sql = @"UPDATE [dbo].[Contact]
-   SET [FullName] = @FullName
+   SET [FirstName] = @FirstName
       ,[LastName] = @LastName
       ,[Gender] = @Gender
       ,[BirthYear] = @BirthYear
@@ -272,7 +315,7 @@ namespace ArtistRegistry.Standard.Data.Providers
       ,[Instagram] = @Instagram
       ,[DeviantArt] = @DeviantArt
       ,[YouTube] = @YouTube
-      ,[OhioArtistREgistry] = @OhioArtistREgistry
+      ,[OhioArtistRegistry] = @OhioArtistRegistry
       ,[StatusId] = @StatusId
       ,[ModifyDate] = getdate()
  WHERE ContactId = @ContactId
@@ -283,6 +326,35 @@ namespace ArtistRegistry.Standard.Data.Providers
 				using (SqlCommand command = new SqlCommand(sql, con))
 				{
 					command.Parameters.AddWithValue("ContactId", entity.ContactId);
+
+					command.Parameters.AddWithValue("FirstName", entity.FirstName);
+					command.Parameters.AddWithValue("LastName", entity.LastName);
+					command.Parameters.AddWithValue("Gender", entity.Gender);
+					if (entity.BirthYear.HasValue)
+						command.Parameters.AddWithValue("BirthYear", entity.BirthYear);
+					else
+						command.Parameters.AddWithValue("BirthYear", DBNull.Value);
+					command.Parameters.AddWithValue("Generation", entity.Generation);
+
+					command.Parameters.AddWithValue("Address1", entity.Address1);
+					command.Parameters.AddWithValue("Address2", entity.Address2);
+					command.Parameters.AddWithValue("City", entity.City);
+					command.Parameters.AddWithValue("State", entity.State);
+					command.Parameters.AddWithValue("PostalCode", entity.PostalCode);
+
+					command.Parameters.AddWithValue("Country", entity.Country);
+					command.Parameters.AddWithValue("Phone", entity.Phone);
+					command.Parameters.AddWithValue("Email", entity.Email);
+					command.Parameters.AddWithValue("WebSite", entity.WebSite);
+					command.Parameters.AddWithValue("Facebook", entity.Facebook);
+
+					command.Parameters.AddWithValue("Instagram", entity.Instagram);
+					command.Parameters.AddWithValue("DeviantArt", entity.DeviantArt);
+					command.Parameters.AddWithValue("YouTube", entity.YouTube);
+					command.Parameters.AddWithValue("OhioArtistRegistry", entity.OhioArtistRegistry);
+
+					command.Parameters.AddWithValue("StatusId", entity.StatusId);
+
 
 					await command.ExecuteNonQueryAsync();
 				}

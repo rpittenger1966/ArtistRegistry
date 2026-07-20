@@ -16,11 +16,17 @@ namespace ArtistRegistry.Standard.Data
 		{
 			ArtistRegistry.Standard.Data.GalleryExhibition o = new ArtistRegistry.Standard.Data.GalleryExhibition();
 
+			o.ArtCallUrl = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "ArtCallUrl");
 			o.CreateDate = ArtistRegistry.Standard.Data.AdoHelper.ReadDateTime(reader, "CreateDate");
 			o.EndDate = ArtistRegistry.Standard.Data.AdoHelper.ReadDateTime(reader, "EndDate");
+			o.EntryDeadline = ArtistRegistry.Standard.Data.AdoHelper.ReadNullableDateTime(reader, "EntryDeadline");
+			o.EntryStatus = ArtistRegistry.Standard.Data.AdoHelper.ReadNullableInt(reader, "EntryStatus");
 			o.GalleryExhibitionId = ArtistRegistry.Standard.Data.AdoHelper.ReadInt(reader, "GalleryExhibitionId");
 			o.GalleryId = ArtistRegistry.Standard.Data.AdoHelper.ReadInt(reader, "GalleryId");
 			o.ModifyDate = ArtistRegistry.Standard.Data.AdoHelper.ReadNullableDateTime(reader, "ModifyDate");
+			o.Name = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Name");
+			o.Notes = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "Notes");
+			o.ProspectusUrl = ArtistRegistry.Standard.Data.AdoHelper.ReadString(reader, "ProspectusUrl");
 			o.StartDate = ArtistRegistry.Standard.Data.AdoHelper.ReadDateTime(reader, "StartDate");
 
 			return o;
