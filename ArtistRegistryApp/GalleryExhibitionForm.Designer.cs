@@ -50,6 +50,9 @@
 			cbxEntryStatus = new ComboBox();
 			label8 = new Label();
 			tbNotes = new TextBox();
+			btnRemoveJuror = new Button();
+			lbxJurors = new ListBox();
+			btnAddJuror = new Button();
 			SuspendLayout();
 			// 
 			// label1
@@ -145,7 +148,7 @@
 			lbxArtists.ItemHeight = 15;
 			lbxArtists.Location = new Point(13, 407);
 			lbxArtists.Name = "lbxArtists";
-			lbxArtists.Size = new Size(341, 214);
+			lbxArtists.Size = new Size(341, 109);
 			lbxArtists.TabIndex = 11;
 			lbxArtists.SelectedIndexChanged += lbxArtists_SelectedIndexChanged;
 			// 
@@ -243,11 +246,44 @@
 			tbNotes.Size = new Size(359, 121);
 			tbNotes.TabIndex = 22;
 			// 
+			// btnRemoveJuror
+			// 
+			btnRemoveJuror.Location = new Point(370, 551);
+			btnRemoveJuror.Name = "btnRemoveJuror";
+			btnRemoveJuror.Size = new Size(162, 23);
+			btnRemoveJuror.TabIndex = 25;
+			btnRemoveJuror.Text = "Remove Juror";
+			btnRemoveJuror.UseVisualStyleBackColor = true;
+			btnRemoveJuror.Click += btnRemoveJuror_Click;
+			// 
+			// lbxJurors
+			// 
+			lbxJurors.FormattingEnabled = true;
+			lbxJurors.ItemHeight = 15;
+			lbxJurors.Location = new Point(12, 522);
+			lbxJurors.Name = "lbxJurors";
+			lbxJurors.Size = new Size(341, 109);
+			lbxJurors.TabIndex = 24;
+			lbxJurors.SelectedIndexChanged += lbxJurors_SelectedIndexChanged;
+			// 
+			// btnAddJuror
+			// 
+			btnAddJuror.Location = new Point(370, 522);
+			btnAddJuror.Name = "btnAddJuror";
+			btnAddJuror.Size = new Size(162, 23);
+			btnAddJuror.TabIndex = 23;
+			btnAddJuror.Text = "Add Juror...";
+			btnAddJuror.UseVisualStyleBackColor = true;
+			btnAddJuror.Click += btnAddJuror_Click;
+			// 
 			// GalleryExhibitionForm
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(543, 678);
+			Controls.Add(btnRemoveJuror);
+			Controls.Add(lbxJurors);
+			Controls.Add(btnAddJuror);
 			Controls.Add(tbNotes);
 			Controls.Add(label8);
 			Controls.Add(cbxEntryStatus);
@@ -306,5 +342,8 @@
 		private ComboBox cbxEntryStatus;
 		private Label label8;
 		private TextBox tbNotes;
+		private Button btnRemoveJuror;
+		private ListBox lbxJurors;
+		private Button btnAddJuror;
 	}
 }

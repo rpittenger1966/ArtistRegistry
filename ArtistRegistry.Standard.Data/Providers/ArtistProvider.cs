@@ -12,7 +12,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 		}
 
-		public async Task InsertArtistAsync(Artist entity)
+		public async Task UpsertArtist(int contactId)
 		{
 			SqlConnection con = null;
 
@@ -20,7 +20,11 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					await InsertArtistAsync(con, entity);
+					int? existing = await GetByIdAsync(con, contactId);
+					if (existing == null)
+					{
+						await InsertArtistAsync(con, contactId);
+					}
 				}
 			}
 			catch
@@ -33,7 +37,29 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task InsertArtistAsync(SqlConnection con, Artist entity)
+
+		public async Task InsertArtistAsync(int contactId)
+		{
+			SqlConnection con = null;
+
+			try
+			{
+				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+				{
+					await InsertArtistAsync(con, contactId);
+				}
+			}
+			catch
+			{
+				throw;
+			}
+			finally
+			{
+				con?.Close();
+			}
+		}
+
+		public async Task InsertArtistAsync(SqlConnection con, int contactId)
 		{
 			string sql = @"INSERT INTO [dbo].[Artist]
            ([ContactId])
@@ -43,59 +69,59 @@ namespace ArtistRegistry.Standard.Data.Providers
 
 			using (SqlCommand command = new SqlCommand(sql, con))
 			{
-				command.Parameters.AddWithValue("ContactId", entity.ContactId);
+				command.Parameters.AddWithValue("ContactId", contactId);
 
 				await command.ExecuteScalarAsync();
 			}
 		}
 
-		public async Task<List<Artist>> GetArtistsAsync()
-		{
-			SqlConnection con = null;
+		//public async Task<List<Artist>> GetArtistsAsync()
+		//{
+		//	SqlConnection con = null;
 
-			try
-			{
-				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
-				{
-					return await GetArtistsAsync(con);
-				}
-			}
-			catch
-			{
-				throw;
-			}
-			finally
-			{
-				con?.Close();
-			}
-		}
+		//	try
+		//	{
+		//		using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+		//		{
+		//			return await GetArtistsAsync(con);
+		//		}
+		//	}
+		//	catch
+		//	{
+		//		throw;
+		//	}
+		//	finally
+		//	{
+		//		con?.Close();
+		//	}
+		//}
 
-		public async Task<List<Artist>> GetArtistsAsync(SqlConnection con)
-		{
-			string sql = "SELECT * FROM [dbo].[Artist] order by [ContactId]";
+		//public async Task<List<Artist>> GetArtistsAsync(SqlConnection con)
+		//{
+		//	string sql = "SELECT * FROM [dbo].[Artist] order by [ContactId]";
 
-			List<Artist> clientList = new List<Artist>();
+		//	List<Artist> clientList = new List<Artist>();
 
-			using (SqlCommand command = new SqlCommand(sql, con))
-			{
-				using (SqlDataReader reader = await command.ExecuteReaderAsync())
-				{
-					while (reader.Read())
-					{
-						Artist client = ArtistDataReader.BuildFromDataReader(reader);
-						if (client != null)
-						{
-							clientList.Add(client);
-						}
-					}
-				}
-			}
+		//	using (SqlCommand command = new SqlCommand(sql, con))
+		//	{
+		//		using (SqlDataReader reader = await command.ExecuteReaderAsync())
+		//		{
+		//			while (reader.Read())
+		//			{
+		//				Artist client = ArtistDataReader.BuildFromDataReader(reader);
+		//				if (client != null)
+		//				{
+		//					clientList.Add(client);
+		//				}
+		//			}
+		//		}
+		//	}
 
-			return clientList;
-		}
+		//	return clientList;
+		//}
 
 
-		public async Task<Artist> GetByIdAsync(int? id)
+		public async Task<int?> GetByIdAsync(int? id)
 		{
 			if (id == null) return null;
 
@@ -118,11 +144,11 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<Artist> GetByIdAsync(SqlConnection con, int? id)
+		public async Task<int?> GetByIdAsync(SqlConnection con, int? id)
 		{
 			if (id == null) return null;
 
-			string sql = $"SELECT * FROM [dbo].[Artist] where ContactId = {id}";
+			string sql = $"SELECT [ContactId] FROM [dbo].[Artist] where ContactId = {id}";
 
 
 			try
@@ -131,10 +157,10 @@ namespace ArtistRegistry.Standard.Data.Providers
 				{
 					using (SqlDataReader reader = await command.ExecuteReaderAsync())
 					{
-						while (reader.Read())
+						if (reader.Read())
 						{
-							Artist client = ArtistDataReader.BuildFromDataReader(reader);
-							return client;
+							int existing = AdoReader.ReadInteger(reader, 0);
+							return existing;
 						}
 					}
 				}

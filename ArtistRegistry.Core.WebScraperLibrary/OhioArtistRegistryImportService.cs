@@ -94,11 +94,10 @@ namespace ArtistRegistry.Core.WebScraperLibrary
 				{
 					Contact contact = artistResult.BuildContact(artistEntry.Url);
 
-					Artist artist = new Artist();
-					artist.ContactId = await contactProvider.InsertContactAsync(contact);
-					await artistProvider.InsertArtistAsync(artist);
+					contact.ContactId = await contactProvider.InsertContactAsync(contact);
+					await artistProvider.InsertArtistAsync(contact.ContactId);
 
-					artistEntry.ArtistId = artist.ContactId;
+					artistEntry.ArtistId = contact.ContactId;
 
 					await artistEntryProvider.UpdateArtistEntryAsync(artistEntry);
 				}

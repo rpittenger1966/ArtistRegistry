@@ -1,18 +1,20 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using ArtistRegistry.Standard.Data;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ArtistRegistry.Standard.Data.Providers
+
+namespace JurorRegistry.Standard.Data.Providers
 {
-	public class GalleryExhibitionArtistProvider : ProviderBase
+	public class GalleryExhibitionJurorProvider : ProviderBase
 	{
-		public GalleryExhibitionArtistProvider(string connectionString, Guid userId) : base(connectionString, userId)
+		public GalleryExhibitionJurorProvider(string connectionString, Guid userId) : base(connectionString, userId)
 		{
 		}
 
-		public async Task InsertGalleryExhibitionArtistAsync(int contactId, int galleryExhibitionId)
+		public async Task InsertGalleryExhibitionJurorAsync(int contactId, int galleryExhibitionId)
 		{
 			SqlConnection con = null;
 
@@ -20,7 +22,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					await InsertGalleryExhibitionArtistAsync(con, contactId, galleryExhibitionId);
+					await InsertGalleryExhibitionJurorAsync(con, contactId, galleryExhibitionId);
 				}
 			}
 			catch
@@ -33,9 +35,9 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task InsertGalleryExhibitionArtistAsync(SqlConnection con, int contactId, int galleryExhibitionId)
+		public async Task InsertGalleryExhibitionJurorAsync(SqlConnection con, int contactId, int galleryExhibitionId)
 		{
-			string sql = @"INSERT INTO [dbo].[GalleryExhibitionArtist]
+			string sql = @"INSERT INTO [dbo].[GalleryExhibitionJuror]
            ([GalleryExhibitionId]
            ,[ContactId])
      VALUES
@@ -51,7 +53,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<List<int>> GetGalleryExhibitionArtistsAsync(int galleryExihibitionId)
+		public async Task<List<int>> GetGalleryExhibitionJurorsAsync(int galleryExihibitionId)
 		{
 			SqlConnection con = null;
 
@@ -59,7 +61,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					return await GetGalleryExhibitionArtistsAsync(con, galleryExihibitionId);
+					return await GetGalleryExhibitionJurorsAsync(con, galleryExihibitionId);
 				}
 			}
 			catch
@@ -72,9 +74,9 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<List<int>> GetGalleryExhibitionArtistsAsync(SqlConnection con, int galleryExihibitionId)
+		public async Task<List<int>> GetGalleryExhibitionJurorsAsync(SqlConnection con, int galleryExihibitionId)
 		{
-			string sql = $"SELECT [ContactId]  FROM [dbo].[GalleryExhibitionArtist] where GalleryExhibitionId = {galleryExihibitionId} order by ContactId desc";
+			string sql = $"SELECT [ContactId]  FROM [dbo].[GalleryExhibitionJuror] where GalleryExhibitionId = {galleryExihibitionId} order by ContactId desc";
 
 			List<int> contactList = new List<int>();
 
@@ -117,7 +119,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 
 		public async Task<int?> GetByIdAsync(SqlConnection con, int galleryExhibitionId, int contactId)
 		{
-			string sql = $"SELECT [ContactId] FROM [dbo].[GalleryExhibitionArtist] where GalleryExhibitionId = {galleryExhibitionId} and [ContactId]={contactId};";
+			string sql = $"SELECT [ContactId] FROM [dbo].[GalleryExhibitionJuror] where GalleryExhibitionId = {galleryExhibitionId} and [ContactId]={contactId};";
 
 			try
 			{
@@ -145,7 +147,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		//		public async Task UpdateGalleryExhibitionArtistAsync(GalleryExhibitionArtist entity)
+		//		public async Task UpdateGalleryExhibitionJurorAsync(GalleryExhibitionJuror entity)
 		//		{
 		//			SqlConnection con = null;
 
@@ -153,7 +155,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 		//			{
 		//				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 		//				{
-		//					await UpdateGalleryExhibitionArtistAsync(con, entity);
+		//					await UpdateGalleryExhibitionJurorAsync(con, entity);
 		//				}
 		//			}
 		//			catch
@@ -167,11 +169,11 @@ namespace ArtistRegistry.Standard.Data.Providers
 		//		}
 
 
-		//		public async Task UpdateGalleryExhibitionArtistAsync(SqlConnection con, GalleryExhibitionArtist entity)
+		//		public async Task UpdateGalleryExhibitionJurorAsync(SqlConnection con, GalleryExhibitionJuror entity)
 		//		{
-		//			string sql = @"UPDATE [dbo].[GalleryExhibitionArtist]
+		//			string sql = @"UPDATE [dbo].[GalleryExhibitionJuror]
 		//   SET [Name] = @Name
-		//      ,[GalleryExhibitionArtistTypeId] = @GalleryExhibitionArtistTypeId
+		//      ,[GalleryExhibitionJurorTypeId] = @GalleryExhibitionJurorTypeId
 		//      ,[ParentId] = @ParentId
 		//      ,[StatusId] = @StatusId
 		//      ,[LegalName] = @LegalName
@@ -182,14 +184,14 @@ namespace ArtistRegistry.Standard.Data.Providers
 		//      ,[TimeZone] = @TimeZone
 		//      ,[ComDataConnectionString] = @ComDataConnectionString
 		//      ,[ComDataShardCount] = @ComDataShardCount
-		// WHERE GalleryExhibitionArtistId = @GalleryExhibitionArtistId
+		// WHERE GalleryExhibitionJurorId = @GalleryExhibitionJurorId
 		//";
 
 		//			try
 		//			{
 		//				using (SqlCommand command = new SqlCommand(sql, con))
 		//				{
-		//					command.Parameters.AddWithValue("GalleryExhibitionArtistId", entity.GalleryExhibitionId);
+		//					command.Parameters.AddWithValue("GalleryExhibitionJurorId", entity.GalleryExhibitionId);
 
 		//					await command.ExecuteNonQueryAsync();
 		//				}
@@ -202,7 +204,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 
 		public async Task DeleteByIdAsync(int galleryExhibitionId, int contactId)
 		{
-			string sql = $"DELETE FROM [dbo].[GalleryExhibitionArtist] where GalleryExhibitionId = {galleryExhibitionId} and [ContactId]={contactId};";
+			string sql = $"DELETE FROM [dbo].[GalleryExhibitionJuror] where GalleryExhibitionId = {galleryExhibitionId} and [ContactId]={contactId};";
 
 			await base.ExecuteQueryAsync(sql, "faile to delete");
 		}

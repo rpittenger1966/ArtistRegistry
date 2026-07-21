@@ -30,34 +30,6 @@
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			tabControl1 = new TabControl();
-			tabPageContacts = new TabPage();
-			button5 = new Button();
-			tbContactNameSearch = new TextBox();
-			label32 = new Label();
-			lbxContacts = new ListBox();
-			groupBox3 = new GroupBox();
-			button3 = new Button();
-			button4 = new Button();
-			textBox21 = new TextBox();
-			textBox22 = new TextBox();
-			textBox23 = new TextBox();
-			textBox24 = new TextBox();
-			textBox25 = new TextBox();
-			textBox26 = new TextBox();
-			textBox27 = new TextBox();
-			textBox28 = new TextBox();
-			textBox29 = new TextBox();
-			textBox30 = new TextBox();
-			label21 = new Label();
-			label22 = new Label();
-			label23 = new Label();
-			label24 = new Label();
-			label25 = new Label();
-			label26 = new Label();
-			label27 = new Label();
-			label28 = new Label();
-			label29 = new Label();
-			label30 = new Label();
 			tabPageGalleries = new TabPage();
 			groupBox4 = new GroupBox();
 			btnAddExhibition = new Button();
@@ -88,6 +60,34 @@
 			label2 = new Label();
 			label1 = new Label();
 			lbxGalleries = new ListBox();
+			tabPageContacts = new TabPage();
+			button5 = new Button();
+			tbContactNameSearch = new TextBox();
+			label32 = new Label();
+			lbxContacts = new ListBox();
+			groupBox3 = new GroupBox();
+			button3 = new Button();
+			button4 = new Button();
+			textBox21 = new TextBox();
+			textBox22 = new TextBox();
+			textBox23 = new TextBox();
+			textBox24 = new TextBox();
+			textBox25 = new TextBox();
+			textBox26 = new TextBox();
+			textBox27 = new TextBox();
+			textBox28 = new TextBox();
+			textBox29 = new TextBox();
+			textBox30 = new TextBox();
+			label21 = new Label();
+			label22 = new Label();
+			label23 = new Label();
+			label24 = new Label();
+			label25 = new Label();
+			label26 = new Label();
+			label27 = new Label();
+			label28 = new Label();
+			label29 = new Label();
+			label30 = new Label();
 			tabPageFestivals = new TabPage();
 			groupBox2 = new GroupBox();
 			button1 = new Button();
@@ -117,20 +117,20 @@
 			tabPageExhibitions = new TabPage();
 			btnClose = new Button();
 			tabControl1.SuspendLayout();
-			tabPageContacts.SuspendLayout();
-			groupBox3.SuspendLayout();
 			tabPageGalleries.SuspendLayout();
 			groupBox4.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)dataGridView_GalleryExhibition).BeginInit();
 			groupBox1.SuspendLayout();
+			tabPageContacts.SuspendLayout();
+			groupBox3.SuspendLayout();
 			tabPageFestivals.SuspendLayout();
 			groupBox2.SuspendLayout();
 			SuspendLayout();
 			// 
 			// tabControl1
 			// 
-			tabControl1.Controls.Add(tabPageContacts);
 			tabControl1.Controls.Add(tabPageGalleries);
+			tabControl1.Controls.Add(tabPageContacts);
 			tabControl1.Controls.Add(tabPageFestivals);
 			tabControl1.Controls.Add(tabPageLog);
 			tabControl1.Controls.Add(tabPageArtPieces);
@@ -140,6 +140,288 @@
 			tabControl1.SelectedIndex = 0;
 			tabControl1.Size = new Size(1273, 891);
 			tabControl1.TabIndex = 0;
+			// 
+			// tabPageGalleries
+			// 
+			tabPageGalleries.Controls.Add(groupBox4);
+			tabPageGalleries.Controls.Add(groupBox1);
+			tabPageGalleries.Controls.Add(lbxGalleries);
+			tabPageGalleries.Location = new Point(4, 24);
+			tabPageGalleries.Name = "tabPageGalleries";
+			tabPageGalleries.Padding = new Padding(3);
+			tabPageGalleries.Size = new Size(1265, 863);
+			tabPageGalleries.TabIndex = 1;
+			tabPageGalleries.Text = "Galleries";
+			tabPageGalleries.UseVisualStyleBackColor = true;
+			// 
+			// groupBox4
+			// 
+			groupBox4.Controls.Add(btnAddExhibition);
+			groupBox4.Controls.Add(dataGridView_GalleryExhibition);
+			groupBox4.Location = new Point(18, 431);
+			groupBox4.Name = "groupBox4";
+			groupBox4.Size = new Size(1227, 380);
+			groupBox4.TabIndex = 10;
+			groupBox4.TabStop = false;
+			groupBox4.Text = "Exhibitions:";
+			// 
+			// btnAddExhibition
+			// 
+			btnAddExhibition.Location = new Point(1061, 340);
+			btnAddExhibition.Name = "btnAddExhibition";
+			btnAddExhibition.Size = new Size(160, 23);
+			btnAddExhibition.TabIndex = 11;
+			btnAddExhibition.Text = "Add Exhibition...";
+			btnAddExhibition.UseVisualStyleBackColor = true;
+			btnAddExhibition.Click += btnAddExhibition_Click;
+			// 
+			// dataGridView_GalleryExhibition
+			// 
+			dataGridView_GalleryExhibition.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			dataGridView_GalleryExhibition.Location = new Point(6, 22);
+			dataGridView_GalleryExhibition.Name = "dataGridView_GalleryExhibition";
+			dataGridView_GalleryExhibition.Size = new Size(1215, 296);
+			dataGridView_GalleryExhibition.TabIndex = 10;
+			dataGridView_GalleryExhibition.CellContentDoubleClick += dataGridView_GalleryExhibition_CellContentDoubleClick;
+			// 
+			// groupBox1
+			// 
+			groupBox1.Controls.Add(label31);
+			groupBox1.Controls.Add(tbGalleryCountry);
+			groupBox1.Controls.Add(btnGalleryAdd);
+			groupBox1.Controls.Add(btnGalleryUpdate);
+			groupBox1.Controls.Add(tbGalleryInstagram);
+			groupBox1.Controls.Add(tbGalleryWebSite);
+			groupBox1.Controls.Add(tbGalleryEmailAddress);
+			groupBox1.Controls.Add(tbGalleryPhone);
+			groupBox1.Controls.Add(tbGalleryPostalCode);
+			groupBox1.Controls.Add(tbGalleryState);
+			groupBox1.Controls.Add(tbGalleryCity);
+			groupBox1.Controls.Add(tbGalleryAddress2);
+			groupBox1.Controls.Add(tbGalleryAddress1);
+			groupBox1.Controls.Add(tbGalleryName);
+			groupBox1.Controls.Add(label10);
+			groupBox1.Controls.Add(label9);
+			groupBox1.Controls.Add(label8);
+			groupBox1.Controls.Add(label7);
+			groupBox1.Controls.Add(label6);
+			groupBox1.Controls.Add(label5);
+			groupBox1.Controls.Add(label4);
+			groupBox1.Controls.Add(label3);
+			groupBox1.Controls.Add(label2);
+			groupBox1.Controls.Add(label1);
+			groupBox1.Location = new Point(325, 37);
+			groupBox1.Name = "groupBox1";
+			groupBox1.Size = new Size(368, 371);
+			groupBox1.TabIndex = 8;
+			groupBox1.TabStop = false;
+			groupBox1.Text = "Address:";
+			// 
+			// label31
+			// 
+			label31.AutoSize = true;
+			label31.Location = new Point(6, 299);
+			label31.Name = "label31";
+			label31.Size = new Size(53, 15);
+			label31.TabIndex = 31;
+			label31.Text = "Country:";
+			// 
+			// tbGalleryCountry
+			// 
+			tbGalleryCountry.Location = new Point(104, 296);
+			tbGalleryCountry.Name = "tbGalleryCountry";
+			tbGalleryCountry.Size = new Size(248, 23);
+			tbGalleryCountry.TabIndex = 30;
+			// 
+			// btnGalleryAdd
+			// 
+			btnGalleryAdd.Location = new Point(104, 333);
+			btnGalleryAdd.Name = "btnGalleryAdd";
+			btnGalleryAdd.Size = new Size(112, 23);
+			btnGalleryAdd.TabIndex = 29;
+			btnGalleryAdd.Text = "Add Gallery";
+			btnGalleryAdd.UseVisualStyleBackColor = true;
+			btnGalleryAdd.Click += btnGalleryAdd_Click;
+			// 
+			// btnGalleryUpdate
+			// 
+			btnGalleryUpdate.Location = new Point(236, 333);
+			btnGalleryUpdate.Name = "btnGalleryUpdate";
+			btnGalleryUpdate.Size = new Size(116, 23);
+			btnGalleryUpdate.TabIndex = 28;
+			btnGalleryUpdate.Text = "Update Gallery";
+			btnGalleryUpdate.UseVisualStyleBackColor = true;
+			btnGalleryUpdate.Click += btnGalleryUpdate_Click;
+			// 
+			// tbGalleryInstagram
+			// 
+			tbGalleryInstagram.Location = new Point(104, 263);
+			tbGalleryInstagram.Name = "tbGalleryInstagram";
+			tbGalleryInstagram.Size = new Size(248, 23);
+			tbGalleryInstagram.TabIndex = 27;
+			// 
+			// tbGalleryWebSite
+			// 
+			tbGalleryWebSite.Location = new Point(104, 234);
+			tbGalleryWebSite.Name = "tbGalleryWebSite";
+			tbGalleryWebSite.Size = new Size(248, 23);
+			tbGalleryWebSite.TabIndex = 26;
+			// 
+			// tbGalleryEmailAddress
+			// 
+			tbGalleryEmailAddress.Location = new Point(104, 205);
+			tbGalleryEmailAddress.Name = "tbGalleryEmailAddress";
+			tbGalleryEmailAddress.Size = new Size(248, 23);
+			tbGalleryEmailAddress.TabIndex = 25;
+			// 
+			// tbGalleryPhone
+			// 
+			tbGalleryPhone.Location = new Point(104, 176);
+			tbGalleryPhone.Name = "tbGalleryPhone";
+			tbGalleryPhone.Size = new Size(190, 23);
+			tbGalleryPhone.TabIndex = 24;
+			// 
+			// tbGalleryPostalCode
+			// 
+			tbGalleryPostalCode.Location = new Point(268, 145);
+			tbGalleryPostalCode.Name = "tbGalleryPostalCode";
+			tbGalleryPostalCode.Size = new Size(84, 23);
+			tbGalleryPostalCode.TabIndex = 23;
+			// 
+			// tbGalleryState
+			// 
+			tbGalleryState.Location = new Point(104, 145);
+			tbGalleryState.Name = "tbGalleryState";
+			tbGalleryState.Size = new Size(78, 23);
+			tbGalleryState.TabIndex = 22;
+			// 
+			// tbGalleryCity
+			// 
+			tbGalleryCity.Location = new Point(104, 116);
+			tbGalleryCity.Name = "tbGalleryCity";
+			tbGalleryCity.Size = new Size(248, 23);
+			tbGalleryCity.TabIndex = 21;
+			// 
+			// tbGalleryAddress2
+			// 
+			tbGalleryAddress2.Location = new Point(104, 87);
+			tbGalleryAddress2.Name = "tbGalleryAddress2";
+			tbGalleryAddress2.Size = new Size(248, 23);
+			tbGalleryAddress2.TabIndex = 20;
+			// 
+			// tbGalleryAddress1
+			// 
+			tbGalleryAddress1.Location = new Point(104, 58);
+			tbGalleryAddress1.Name = "tbGalleryAddress1";
+			tbGalleryAddress1.Size = new Size(248, 23);
+			tbGalleryAddress1.TabIndex = 19;
+			// 
+			// tbGalleryName
+			// 
+			tbGalleryName.Location = new Point(104, 29);
+			tbGalleryName.Name = "tbGalleryName";
+			tbGalleryName.Size = new Size(248, 23);
+			tbGalleryName.TabIndex = 18;
+			// 
+			// label10
+			// 
+			label10.AutoSize = true;
+			label10.Location = new Point(6, 205);
+			label10.Name = "label10";
+			label10.Size = new Size(84, 15);
+			label10.TabIndex = 17;
+			label10.Text = "Email Address:";
+			// 
+			// label9
+			// 
+			label9.AutoSize = true;
+			label9.Location = new Point(6, 237);
+			label9.Name = "label9";
+			label9.Size = new Size(56, 15);
+			label9.TabIndex = 16;
+			label9.Text = "Web Site:";
+			// 
+			// label8
+			// 
+			label8.AutoSize = true;
+			label8.Location = new Point(6, 266);
+			label8.Name = "label8";
+			label8.Size = new Size(63, 15);
+			label8.TabIndex = 15;
+			label8.Text = "Instagram:";
+			// 
+			// label7
+			// 
+			label7.AutoSize = true;
+			label7.Location = new Point(6, 179);
+			label7.Name = "label7";
+			label7.Size = new Size(44, 15);
+			label7.TabIndex = 14;
+			label7.Text = "Phone:";
+			// 
+			// label6
+			// 
+			label6.AutoSize = true;
+			label6.Location = new Point(189, 153);
+			label6.Name = "label6";
+			label6.Size = new Size(73, 15);
+			label6.TabIndex = 13;
+			label6.Text = "Postal Code:";
+			// 
+			// label5
+			// 
+			label5.AutoSize = true;
+			label5.Location = new Point(6, 153);
+			label5.Name = "label5";
+			label5.Size = new Size(36, 15);
+			label5.TabIndex = 12;
+			label5.Text = "State:";
+			// 
+			// label4
+			// 
+			label4.AutoSize = true;
+			label4.Location = new Point(6, 119);
+			label4.Name = "label4";
+			label4.Size = new Size(31, 15);
+			label4.TabIndex = 11;
+			label4.Text = "City:";
+			// 
+			// label3
+			// 
+			label3.AutoSize = true;
+			label3.Location = new Point(6, 90);
+			label3.Name = "label3";
+			label3.Size = new Size(61, 15);
+			label3.TabIndex = 10;
+			label3.Text = "Address 2:";
+			// 
+			// label2
+			// 
+			label2.AutoSize = true;
+			label2.Location = new Point(6, 61);
+			label2.Name = "label2";
+			label2.Size = new Size(61, 15);
+			label2.TabIndex = 9;
+			label2.Text = "Address 1:";
+			// 
+			// label1
+			// 
+			label1.AutoSize = true;
+			label1.Location = new Point(6, 32);
+			label1.Name = "label1";
+			label1.Size = new Size(42, 15);
+			label1.TabIndex = 8;
+			label1.Text = "Name:";
+			// 
+			// lbxGalleries
+			// 
+			lbxGalleries.FormattingEnabled = true;
+			lbxGalleries.ItemHeight = 15;
+			lbxGalleries.Location = new Point(18, 37);
+			lbxGalleries.Name = "lbxGalleries";
+			lbxGalleries.Size = new Size(283, 364);
+			lbxGalleries.TabIndex = 0;
+			lbxGalleries.SelectedIndexChanged += lbxGalleries_SelectedIndexChanged;
 			// 
 			// tabPageContacts
 			// 
@@ -399,288 +681,6 @@
 			label30.Size = new Size(42, 15);
 			label30.TabIndex = 8;
 			label30.Text = "Name:";
-			// 
-			// tabPageGalleries
-			// 
-			tabPageGalleries.Controls.Add(groupBox4);
-			tabPageGalleries.Controls.Add(groupBox1);
-			tabPageGalleries.Controls.Add(lbxGalleries);
-			tabPageGalleries.Location = new Point(4, 24);
-			tabPageGalleries.Name = "tabPageGalleries";
-			tabPageGalleries.Padding = new Padding(3);
-			tabPageGalleries.Size = new Size(1265, 863);
-			tabPageGalleries.TabIndex = 1;
-			tabPageGalleries.Text = "Galleries";
-			tabPageGalleries.UseVisualStyleBackColor = true;
-			// 
-			// groupBox4
-			// 
-			groupBox4.Controls.Add(btnAddExhibition);
-			groupBox4.Controls.Add(dataGridView_GalleryExhibition);
-			groupBox4.Location = new Point(18, 431);
-			groupBox4.Name = "groupBox4";
-			groupBox4.Size = new Size(687, 380);
-			groupBox4.TabIndex = 10;
-			groupBox4.TabStop = false;
-			groupBox4.Text = "Exhibitions:";
-			// 
-			// btnAddExhibition
-			// 
-			btnAddExhibition.Location = new Point(515, 337);
-			btnAddExhibition.Name = "btnAddExhibition";
-			btnAddExhibition.Size = new Size(160, 23);
-			btnAddExhibition.TabIndex = 11;
-			btnAddExhibition.Text = "Add Exhibition...";
-			btnAddExhibition.UseVisualStyleBackColor = true;
-			btnAddExhibition.Click += btnAddExhibition_Click;
-			// 
-			// dataGridView_GalleryExhibition
-			// 
-			dataGridView_GalleryExhibition.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			dataGridView_GalleryExhibition.Location = new Point(6, 22);
-			dataGridView_GalleryExhibition.Name = "dataGridView_GalleryExhibition";
-			dataGridView_GalleryExhibition.Size = new Size(669, 296);
-			dataGridView_GalleryExhibition.TabIndex = 10;
-			dataGridView_GalleryExhibition.CellContentDoubleClick += dataGridView_GalleryExhibition_CellContentDoubleClick;
-			// 
-			// groupBox1
-			// 
-			groupBox1.Controls.Add(label31);
-			groupBox1.Controls.Add(tbGalleryCountry);
-			groupBox1.Controls.Add(btnGalleryAdd);
-			groupBox1.Controls.Add(btnGalleryUpdate);
-			groupBox1.Controls.Add(tbGalleryInstagram);
-			groupBox1.Controls.Add(tbGalleryWebSite);
-			groupBox1.Controls.Add(tbGalleryEmailAddress);
-			groupBox1.Controls.Add(tbGalleryPhone);
-			groupBox1.Controls.Add(tbGalleryPostalCode);
-			groupBox1.Controls.Add(tbGalleryState);
-			groupBox1.Controls.Add(tbGalleryCity);
-			groupBox1.Controls.Add(tbGalleryAddress2);
-			groupBox1.Controls.Add(tbGalleryAddress1);
-			groupBox1.Controls.Add(tbGalleryName);
-			groupBox1.Controls.Add(label10);
-			groupBox1.Controls.Add(label9);
-			groupBox1.Controls.Add(label8);
-			groupBox1.Controls.Add(label7);
-			groupBox1.Controls.Add(label6);
-			groupBox1.Controls.Add(label5);
-			groupBox1.Controls.Add(label4);
-			groupBox1.Controls.Add(label3);
-			groupBox1.Controls.Add(label2);
-			groupBox1.Controls.Add(label1);
-			groupBox1.Location = new Point(325, 37);
-			groupBox1.Name = "groupBox1";
-			groupBox1.Size = new Size(368, 371);
-			groupBox1.TabIndex = 8;
-			groupBox1.TabStop = false;
-			groupBox1.Text = "Address:";
-			// 
-			// label31
-			// 
-			label31.AutoSize = true;
-			label31.Location = new Point(6, 299);
-			label31.Name = "label31";
-			label31.Size = new Size(53, 15);
-			label31.TabIndex = 31;
-			label31.Text = "Country:";
-			// 
-			// tbGalleryCountry
-			// 
-			tbGalleryCountry.Location = new Point(104, 296);
-			tbGalleryCountry.Name = "tbGalleryCountry";
-			tbGalleryCountry.Size = new Size(248, 23);
-			tbGalleryCountry.TabIndex = 30;
-			// 
-			// btnGalleryAdd
-			// 
-			btnGalleryAdd.Location = new Point(104, 333);
-			btnGalleryAdd.Name = "btnGalleryAdd";
-			btnGalleryAdd.Size = new Size(112, 23);
-			btnGalleryAdd.TabIndex = 29;
-			btnGalleryAdd.Text = "Add Gallery";
-			btnGalleryAdd.UseVisualStyleBackColor = true;
-			btnGalleryAdd.Click += btnGalleryAdd_Click;
-			// 
-			// btnGalleryUpdate
-			// 
-			btnGalleryUpdate.Location = new Point(236, 333);
-			btnGalleryUpdate.Name = "btnGalleryUpdate";
-			btnGalleryUpdate.Size = new Size(116, 23);
-			btnGalleryUpdate.TabIndex = 28;
-			btnGalleryUpdate.Text = "Update Gallery";
-			btnGalleryUpdate.UseVisualStyleBackColor = true;
-			btnGalleryUpdate.Click += btnGalleryUpdate_Click;
-			// 
-			// tbGalleryInstagram
-			// 
-			tbGalleryInstagram.Location = new Point(104, 263);
-			tbGalleryInstagram.Name = "tbGalleryInstagram";
-			tbGalleryInstagram.Size = new Size(248, 23);
-			tbGalleryInstagram.TabIndex = 27;
-			// 
-			// tbGalleryWebSite
-			// 
-			tbGalleryWebSite.Location = new Point(104, 234);
-			tbGalleryWebSite.Name = "tbGalleryWebSite";
-			tbGalleryWebSite.Size = new Size(248, 23);
-			tbGalleryWebSite.TabIndex = 26;
-			// 
-			// tbGalleryEmailAddress
-			// 
-			tbGalleryEmailAddress.Location = new Point(104, 205);
-			tbGalleryEmailAddress.Name = "tbGalleryEmailAddress";
-			tbGalleryEmailAddress.Size = new Size(248, 23);
-			tbGalleryEmailAddress.TabIndex = 25;
-			// 
-			// tbGalleryPhone
-			// 
-			tbGalleryPhone.Location = new Point(104, 176);
-			tbGalleryPhone.Name = "tbGalleryPhone";
-			tbGalleryPhone.Size = new Size(190, 23);
-			tbGalleryPhone.TabIndex = 24;
-			// 
-			// tbGalleryPostalCode
-			// 
-			tbGalleryPostalCode.Location = new Point(268, 145);
-			tbGalleryPostalCode.Name = "tbGalleryPostalCode";
-			tbGalleryPostalCode.Size = new Size(84, 23);
-			tbGalleryPostalCode.TabIndex = 23;
-			// 
-			// tbGalleryState
-			// 
-			tbGalleryState.Location = new Point(104, 145);
-			tbGalleryState.Name = "tbGalleryState";
-			tbGalleryState.Size = new Size(78, 23);
-			tbGalleryState.TabIndex = 22;
-			// 
-			// tbGalleryCity
-			// 
-			tbGalleryCity.Location = new Point(104, 116);
-			tbGalleryCity.Name = "tbGalleryCity";
-			tbGalleryCity.Size = new Size(248, 23);
-			tbGalleryCity.TabIndex = 21;
-			// 
-			// tbGalleryAddress2
-			// 
-			tbGalleryAddress2.Location = new Point(104, 87);
-			tbGalleryAddress2.Name = "tbGalleryAddress2";
-			tbGalleryAddress2.Size = new Size(248, 23);
-			tbGalleryAddress2.TabIndex = 20;
-			// 
-			// tbGalleryAddress1
-			// 
-			tbGalleryAddress1.Location = new Point(104, 58);
-			tbGalleryAddress1.Name = "tbGalleryAddress1";
-			tbGalleryAddress1.Size = new Size(248, 23);
-			tbGalleryAddress1.TabIndex = 19;
-			// 
-			// tbGalleryName
-			// 
-			tbGalleryName.Location = new Point(104, 29);
-			tbGalleryName.Name = "tbGalleryName";
-			tbGalleryName.Size = new Size(248, 23);
-			tbGalleryName.TabIndex = 18;
-			// 
-			// label10
-			// 
-			label10.AutoSize = true;
-			label10.Location = new Point(6, 205);
-			label10.Name = "label10";
-			label10.Size = new Size(84, 15);
-			label10.TabIndex = 17;
-			label10.Text = "Email Address:";
-			// 
-			// label9
-			// 
-			label9.AutoSize = true;
-			label9.Location = new Point(6, 237);
-			label9.Name = "label9";
-			label9.Size = new Size(56, 15);
-			label9.TabIndex = 16;
-			label9.Text = "Web Site:";
-			// 
-			// label8
-			// 
-			label8.AutoSize = true;
-			label8.Location = new Point(6, 266);
-			label8.Name = "label8";
-			label8.Size = new Size(63, 15);
-			label8.TabIndex = 15;
-			label8.Text = "Instagram:";
-			// 
-			// label7
-			// 
-			label7.AutoSize = true;
-			label7.Location = new Point(6, 179);
-			label7.Name = "label7";
-			label7.Size = new Size(44, 15);
-			label7.TabIndex = 14;
-			label7.Text = "Phone:";
-			// 
-			// label6
-			// 
-			label6.AutoSize = true;
-			label6.Location = new Point(189, 153);
-			label6.Name = "label6";
-			label6.Size = new Size(73, 15);
-			label6.TabIndex = 13;
-			label6.Text = "Postal Code:";
-			// 
-			// label5
-			// 
-			label5.AutoSize = true;
-			label5.Location = new Point(6, 153);
-			label5.Name = "label5";
-			label5.Size = new Size(36, 15);
-			label5.TabIndex = 12;
-			label5.Text = "State:";
-			// 
-			// label4
-			// 
-			label4.AutoSize = true;
-			label4.Location = new Point(6, 119);
-			label4.Name = "label4";
-			label4.Size = new Size(31, 15);
-			label4.TabIndex = 11;
-			label4.Text = "City:";
-			// 
-			// label3
-			// 
-			label3.AutoSize = true;
-			label3.Location = new Point(6, 90);
-			label3.Name = "label3";
-			label3.Size = new Size(61, 15);
-			label3.TabIndex = 10;
-			label3.Text = "Address 2:";
-			// 
-			// label2
-			// 
-			label2.AutoSize = true;
-			label2.Location = new Point(6, 61);
-			label2.Name = "label2";
-			label2.Size = new Size(61, 15);
-			label2.TabIndex = 9;
-			label2.Text = "Address 1:";
-			// 
-			// label1
-			// 
-			label1.AutoSize = true;
-			label1.Location = new Point(6, 32);
-			label1.Name = "label1";
-			label1.Size = new Size(42, 15);
-			label1.TabIndex = 8;
-			label1.Text = "Name:";
-			// 
-			// lbxGalleries
-			// 
-			lbxGalleries.FormattingEnabled = true;
-			lbxGalleries.ItemHeight = 15;
-			lbxGalleries.Location = new Point(18, 37);
-			lbxGalleries.Name = "lbxGalleries";
-			lbxGalleries.Size = new Size(283, 364);
-			lbxGalleries.TabIndex = 0;
-			lbxGalleries.SelectedIndexChanged += lbxGalleries_SelectedIndexChanged;
 			// 
 			// tabPageFestivals
 			// 
@@ -957,15 +957,15 @@
 			Text = "Artist Registry";
 			Load += MainForm_Load;
 			tabControl1.ResumeLayout(false);
-			tabPageContacts.ResumeLayout(false);
-			tabPageContacts.PerformLayout();
-			groupBox3.ResumeLayout(false);
-			groupBox3.PerformLayout();
 			tabPageGalleries.ResumeLayout(false);
 			groupBox4.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)dataGridView_GalleryExhibition).EndInit();
 			groupBox1.ResumeLayout(false);
 			groupBox1.PerformLayout();
+			tabPageContacts.ResumeLayout(false);
+			tabPageContacts.PerformLayout();
+			groupBox3.ResumeLayout(false);
+			groupBox3.PerformLayout();
 			tabPageFestivals.ResumeLayout(false);
 			groupBox2.ResumeLayout(false);
 			groupBox2.PerformLayout();

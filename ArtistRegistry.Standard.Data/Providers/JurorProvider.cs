@@ -1,10 +1,11 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using ArtistRegistry.Standard.Data;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ArtistRegistry.Standard.Data.Providers
+namespace JurorRegistry.Standard.Data.Providers
 {
 	public class JurorProvider : ProviderBase
 	{
@@ -12,7 +13,7 @@ namespace ArtistRegistry.Standard.Data.Providers
 		{
 		}
 
-		public async Task<int> InsertJurorAsync(Juror entity)
+		public async Task UpsertJuror(int contactId)
 		{
 			SqlConnection con = null;
 
@@ -20,98 +21,108 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
 				{
-					return await InsertJurorAsync(con, entity);
-				}
-			}
-			catch
-			{
-				throw;
-			}
-			finally
-			{
-				con?.Close();
-			}
-		}
-
-		public async Task<int> InsertJurorAsync(SqlConnection con, Juror entity)
-		{
-			string sql = @"INSERT INTO [dbo].[Juror]
-           ([Name]
-           ,[JurorTypeId]
-           ,[ParentId]
-           ,[StatusId]
-           ,[LegalName]
-           ,[ExternalIdentifier]
-           ,[TimeZone])
-     VALUES
-           (@Name
-           ,@JurorTypeId
-           ,@ParentId
-           ,@StatusId
-           ,@LegalName
-           ,@ExternalIdentifier
-           ,@TimeZone);";
-
-			sql = sql + "SELECT SCOPE_IDENTITY();";
-
-			using (SqlCommand command = new SqlCommand(sql, con))
-			{
-				command.Parameters.AddWithValue("FullName", entity.ContactId);
-
-				object o = await command.ExecuteScalarAsync();
-
-				int retval = Convert.ToInt32(o);
-				return retval;
-			}
-		}
-
-		public async Task<List<Juror>> GetJurorsAsync()
-		{
-			SqlConnection con = null;
-
-			try
-			{
-				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
-				{
-					return await GetJurorsAsync(con);
-				}
-			}
-			catch
-			{
-				throw;
-			}
-			finally
-			{
-				con?.Close();
-			}
-		}
-
-		public async Task<List<Juror>> GetJurorsAsync(SqlConnection con)
-		{
-			string sql = "SELECT * FROM [dbo].[Juror] order by [Name]";
-
-			List<Juror> clientList = new List<Juror>();
-
-			using (SqlCommand command = new SqlCommand(sql, con))
-			{
-				using (SqlDataReader reader = await command.ExecuteReaderAsync())
-				{
-					while (reader.Read())
+					int? existing = await GetByIdAsync(con, contactId);
+					if (existing == null)
 					{
-						Juror client = JurorDataReader.BuildFromDataReader(reader);
-						if (client != null)
-						{
-							clientList.Add(client);
-						}
+						await InsertJurorAsync(con, contactId);
 					}
 				}
 			}
-
-			return clientList;
+			catch
+			{
+				throw;
+			}
+			finally
+			{
+				con?.Close();
+			}
 		}
 
 
-		public async Task<Juror> GetByIdAsync(int? id)
+		public async Task InsertJurorAsync(int contactId)
+		{
+			SqlConnection con = null;
+
+			try
+			{
+				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+				{
+					await InsertJurorAsync(con, contactId);
+				}
+			}
+			catch
+			{
+				throw;
+			}
+			finally
+			{
+				con?.Close();
+			}
+		}
+
+		public async Task InsertJurorAsync(SqlConnection con, int contactId)
+		{
+			string sql = @"INSERT INTO [dbo].[Juror]
+           ([ContactId])
+     VALUES
+           (@ContactId);";
+
+
+			using (SqlCommand command = new SqlCommand(sql, con))
+			{
+				command.Parameters.AddWithValue("ContactId", contactId);
+
+				await command.ExecuteScalarAsync();
+			}
+		}
+
+		//public async Task<List<int>> GetJurorsAsync()
+		//{
+		//	SqlConnection con = null;
+
+		//	try
+		//	{
+		//		using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+		//		{
+		//			return await GetJurorsAsync(con);
+		//		}
+		//	}
+		//	catch
+		//	{
+		//		throw;
+		//	}
+		//	finally
+		//	{
+		//		con?.Close();
+		//	}
+		//}
+
+		//public async Task<List<Juror>> GetJurorsAsync(SqlConnection con)
+		//{
+		//	string sql = "SELECT * FROM [dbo].[Juror] order by [ContactId]";
+
+		//	List<Juror> clientList = new List<Juror>();
+
+		//	using (SqlCommand command = new SqlCommand(sql, con))
+		//	{
+		//		using (SqlDataReader reader = await command.ExecuteReaderAsync())
+		//		{
+		//			while (reader.Read())
+		//			{
+		//				Juror client = JurorDataReader.BuildFromDataReader(reader);
+		//				if (client != null)
+		//				{
+		//					clientList.Add(client);
+		//				}
+		//			}
+		//		}
+		//	}
+
+		//	return clientList;
+		//}
+
+
+		public async Task<int?> GetByIdAsync(int? id)
 		{
 			if (id == null) return null;
 
@@ -134,11 +145,11 @@ namespace ArtistRegistry.Standard.Data.Providers
 			}
 		}
 
-		public async Task<Juror> GetByIdAsync(SqlConnection con, int? id)
+		public async Task<int?> GetByIdAsync(SqlConnection con, int? id)
 		{
 			if (id == null) return null;
 
-			string sql = $"SELECT * FROM [dbo].[Juror] where JurorId = {id}";
+			string sql = $"SELECT top(1) ContactId FROM [dbo].[Juror] where ContactId = {id}";
 
 
 			try
@@ -147,10 +158,10 @@ namespace ArtistRegistry.Standard.Data.Providers
 				{
 					using (SqlDataReader reader = await command.ExecuteReaderAsync())
 					{
-						while (reader.Read())
+						if (reader.Read())
 						{
-							Juror client = JurorDataReader.BuildFromDataReader(reader);
-							return client;
+							int existing = AdoReader.ReadInteger(reader, 0);
+							return existing;
 						}
 					}
 				}
@@ -161,66 +172,62 @@ namespace ArtistRegistry.Standard.Data.Providers
 			{
 				throw;
 			}
-			finally
-			{
-				con?.Close();
-			}
 		}
 
-		public async Task UpdateJurorAsync(Juror entity)
-		{
-			SqlConnection con = null;
+		//		public async Task UpdateJurorAsync(Juror entity)
+		//		{
+		//			SqlConnection con = null;
 
-			try
-			{
-				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
-				{
-					await UpdateJurorAsync(con, entity);
-				}
-			}
-			catch
-			{
-				throw;
-			}
-			finally
-			{
-				con?.Close();
-			}
-		}
+		//			try
+		//			{
+		//				using (con = SqlConnectionFactory.GetSqlConnection(_connectionString))
+		//				{
+		//					await UpdateJurorAsync(con, entity);
+		//				}
+		//			}
+		//			catch
+		//			{
+		//				throw;
+		//			}
+		//			finally
+		//			{
+		//				con?.Close();
+		//			}
+		//		}
 
 
-		public async Task UpdateJurorAsync(SqlConnection con, Juror entity)
-		{
-			string sql = @"UPDATE [dbo].[Juror]
-   SET [Name] = @Name
-      ,[JurorTypeId] = @JurorTypeId
-      ,[ParentId] = @ParentId
-      ,[StatusId] = @StatusId
-      ,[LegalName] = @LegalName
+		//		public async Task UpdateJurorAsync(SqlConnection con, Juror entity)
+		//		{
+		//			string sql = @"UPDATE [dbo].[Juror]
+		//   SET [Name] = @Name
+		//      ,[JurorTypeId] = @JurorTypeId
+		//      ,[ParentId] = @ParentId
+		//      ,[StatusId] = @StatusId
+		//      ,[LegalName] = @LegalName
 
-      ,[ExternalIdentifier] = @ExternalIdentifier
-      ,[ModifyBy] = @ModifyBy
-      ,[ModifyDate] = GETUTCDATE()
-      ,[TimeZone] = @TimeZone
-      ,[ComDataConnectionString] = @ComDataConnectionString
-      ,[ComDataShardCount] = @ComDataShardCount
- WHERE JurorId = @JurorId
-";
+		//      ,[ExternalIdentifier] = @ExternalIdentifier
+		//      ,[ModifyBy] = @ModifyBy
+		//      ,[ModifyDate] = GETUTCDATE()
+		//      ,[TimeZone] = @TimeZone
+		//      ,[ComDataConnectionString] = @ComDataConnectionString
+		//      ,[ComDataShardCount] = @ComDataShardCount
+		// WHERE JurorId = @JurorId
+		//";
 
-			try
-			{
-				using (SqlCommand command = new SqlCommand(sql, con))
-				{
-					command.Parameters.AddWithValue("JurorId", entity.ContactId);
+		//			try
+		//			{
+		//				using (SqlCommand command = new SqlCommand(sql, con))
+		//				{
+		//					command.Parameters.AddWithValue("JurorId", entity.JurorId);
 
-					await command.ExecuteNonQueryAsync();
-				}
-			}
-			catch (Exception ex)
-			{
-				throw new Exception($"Failed to update client {entity.ContactId}");
-			}
-		}
+		//					await command.ExecuteNonQueryAsync();
+		//				}
+		//			}
+		//			catch (Exception ex)
+		//			{
+		//				throw new Exception($"Failed to update client {entity.JurorId}");
+		//			}
+		//		}
 
 
 

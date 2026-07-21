@@ -33,6 +33,8 @@ namespace ArtistRegistryApp
 		private void ContactSearchForm_Load(object sender, EventArgs e)
 		{
 			DisplayContact(this.Contact);
+
+
 		}
 
 		private async Task FillListBox(string sql)

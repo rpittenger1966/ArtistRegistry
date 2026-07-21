@@ -31,11 +31,11 @@ IF OBJECT_ID('dbo.Gallery', 'U') IS NOT NULL
 IF OBJECT_ID('dbo.Juror', 'U') IS NOT NULL
   DROP TABLE [dbo].[Juror];
 
-IF OBJECT_ID('dbo.Artist', 'U') IS NOT NULL
-  DROP TABLE [dbo].[Artist];
+--IF OBJECT_ID('dbo.Artist', 'U') IS NOT NULL
+--  DROP TABLE [dbo].[Artist];
 
-IF OBJECT_ID('dbo.Contact', 'U') IS NOT NULL
-  DROP TABLE [dbo].[Contact];
+--IF OBJECT_ID('dbo.Contact', 'U') IS NOT NULL
+--  DROP TABLE [dbo].[Contact];
 
 
 SET ANSI_NULLS ON
@@ -206,6 +206,36 @@ ALTER TABLE [dbo].[GalleryExhibitionArtist]  WITH CHECK ADD  CONSTRAINT [FK_Gall
 
 ALTER TABLE [dbo].[GalleryExhibitionArtist]  WITH CHECK ADD  CONSTRAINT [FK_GalleryExhibitionArtist_ContactId] FOREIGN KEY([ContactId])
 	REFERENCES [dbo].[Contact] ([ContactId])
+
+
+CREATE TABLE [dbo].[GalleryExhibitionJuror] (
+	[GalleryExhibitionId] int NOT NULL,
+	[ContactId] int NOT NULL,
+
+	CONSTRAINT PK_GalleryExhibitionJuror PRIMARY KEY CLUSTERED ([GalleryExhibitionId],[ContactId])
+);
+
+ALTER TABLE [dbo].[GalleryExhibitionJuror]  WITH CHECK ADD  CONSTRAINT [FK_GalleryExhibitionJuror_GalleryExhibitionId] FOREIGN KEY([GalleryExhibitionId])
+	REFERENCES [dbo].[GalleryExhibition] ([GalleryExhibitionId])
+
+ALTER TABLE [dbo].[GalleryExhibitionJuror]  WITH CHECK ADD  CONSTRAINT [FK_GalleryExhibitionJuror_ContactId] FOREIGN KEY([ContactId])
+	REFERENCES [dbo].[Contact] ([ContactId])
+
+
+CREATE TABLE [dbo].[GalleryArtist] (
+	[GalleryId] int NOT NULL,
+	[ContactId] int NOT NULL,
+
+	CONSTRAINT PK_GalleryArtist PRIMARY KEY CLUSTERED ([GalleryId],[ContactId])
+);
+
+ALTER TABLE [dbo].[GalleryArtist]  WITH CHECK ADD  CONSTRAINT [FK_GalleryArtist_GalleryId] FOREIGN KEY([GalleryId])
+	REFERENCES [dbo].[Gallery] ([GalleryId])
+
+ALTER TABLE [dbo].[GalleryArtist]  WITH CHECK ADD  CONSTRAINT [FK_GalleryArtist_ContactId] FOREIGN KEY([ContactId])
+	REFERENCES [dbo].[Contact] ([ContactId])
+
+
 
 
 
